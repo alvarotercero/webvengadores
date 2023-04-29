@@ -225,7 +225,12 @@ body{
     .descriptionVideo1{
     
         width: 98%;
-        height: auto;
+        float: right;
+        overflow: scroll;
+
+        padding: 20px;
+        margin-right: 25%;
+        
         margin-top: 15px;
     
     }
@@ -242,7 +247,9 @@ body{
     
         width: 98%;
         height: auto;
+        margin-right: 25%;
         margin-top: 15px;
+        padding: 20px;
         margin-bottom: 15px;
     }
     
@@ -257,7 +264,8 @@ body{
     
     .estiloParrafo{
     
-        font-size: 14px;
+        font-size: 12px;
+        
         margin: 10px 10px;
         text-indent: 20px; /*sangria*/
         line-height: 20px;  /*separacion lineas*/
@@ -266,7 +274,7 @@ body{
     
     #letraPeliculas{
     
-        font-size: 20px;
+        font-size: 15px;
         word-spacing: 5px; /*separacion entre palabras*/
         margin-top: 5px;
         -webkit-text-stroke: 0.5px rgb(176, 21, 21);
@@ -292,13 +300,14 @@ body{
     
         float: none;
         position: absolute;
+
         top: 443px;
         left: 400px;
         width: 37%;
         height: 354px;
     
     }
-    
+     
     /*******************************************************************************************/
     /**************** VIDEO 2 ******************************************************************/
     
