@@ -1,0 +1,595 @@
+
+/** BODY FONDO**/
+
+body{
+
+    background-image: url("../imagenes/fondo_quienessomos.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+
+/** *********************************************************************************************************** **/
+
+/* CAJAS */
+
+.boxHeader{
+   
+    background-color: rgba(16, 89, 55, 0.549);
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px  #c0c1cc69; 
+}
+
+.boxTitulo{
+   
+    background-color: rgba(16, 89, 55, 0.549);
+    float: left;
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px  #c0c1cc69; 
+}
+
+.box{
+
+    width: 100%;
+    height: 450px;
+    background-color: rgba(30, 93, 30, 0.721);
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px  #c0c1cc69;
+  
+
+}
+
+.boxTexto{
+    width: 70%;
+    height: 300px;
+    margin: 15px 25px;
+    float:left
+}
+
+.boxPresentacion{
+
+    background-color: rgba(30, 103, 48, 0.703);
+    float: left;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px  #c0c1cc69; 
+
+}
+
+.borderBox{
+
+    border-radius: 20px 20px 20px 20px;
+  
+  }
+
+/**************************************************************************************************************/
+/* Propiedades Imagenes*/
+
+.sizeimagen{
+    
+    width:200px;
+    height:200px;
+    float: left;
+    margin: 60px 25px 45px 45px;
+ 
+   
+   
+}
+
+
+.borderImagen{
+    border-radius: 100px 100px 100px 100px; 
+    box-shadow: 10px 10px 7px  #c0c1cc69; 
+}
+
+
+/*************************************************************************************************************************************/
+/* Propiedades textos*/
+
+.textoPresentacion{
+
+    color:rgb(223, 214, 222);
+    font: 15px bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    margin: 30px;
+    float:left;
+}
+
+/* Texto presentaciones componentes grupo*/
+.texto{
+
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:white
+    
+}
+/**Importamos la letra**/
+
+
+@font-face {
+    font-family: avengers;
+    src: url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf);
+    font-style: normal;
+}
+
+.letraAvengers{
+    color:rgb(223, 214, 222);
+    font: 25px bold;
+    font-family: avengers;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.9px rgb(176, 21, 21); 
+}
+
+.letraTitulo{
+
+    color:rgb(223, 214, 222);
+    font: 40px bold;
+    font-family: avengers;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 25px;
+    -webkit-text-stroke: 0.9px rgb(176, 21, 21);
+   
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    body{
+        background-image: url("../imagenes/fondo_quienessomos.jpg");
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: auto;
+        height: 1300px;
+    }
+    
+    .boxTitulo{
+        position: absolute;
+        top: 150px;
+        left: 5px;
+        width: 98%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .letraTitulo{
+        font-size: 20px;
+    }
+    .boxPresentacion{
+        width: 100%;
+        margin-top: 65px;
+        
+    }
+    
+    .textoPresentacion{
+        font-size: 8px;
+        
+    }
+    
+    .box{
+    
+       height: 200px;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       
+    
+    }
+    
+    .sizeimagen{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        
+    }
+    
+    .borderImagen{
+        box-shadow: 3px 3px 2px  #c0c1cc69;
+    }
+    
+    .letraAvengers{
+        font-size: 15px;
+        -webkit-text-stroke: 0.7px rgb(176, 21, 21);
+        margin: 20px;
+        left: 100px;
+        
+    }
+    
+    .boxTexto{
+        margin: 0px 0px 5px 60px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+        width: 280px;
+        height: 100px;
+        overflow: scroll;
+        
+    }
+    
+    .texto{
+        font-size: 7px;
+        padding: 0px;
+        
+    }
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    
+body{
+    width: auto;
+}
+
+
+
+
+/** *********************************************************************************************************** **/
+
+/* CAJAS */
+
+.boxHeader{
+   
+    background-color: rgba(16, 89, 55, 0.549);
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px  #c0c1cc69; 
+}
+
+.boxTitulo{
+   
+    background-color: rgba(16, 89, 55, 0.549);
+    
+    box-shadow: 5px 5px 5px  #c0c1cc69; 
+}
+
+.box{
+
+    width: 100%;
+    height: 450px;
+    background-color: rgba(30, 93, 30, 0.721);
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px  #c0c1cc69;
+  
+
+}
+
+.boxTexto{
+    width: 70%;
+    height: auto;
+    margin: 15px 25px;
+    float:none;
+    padding-left: 110px;
+    margin-left: 80px;
+
+}
+
+.boxPresentacion{
+    
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px  #c0c1cc69; 
+    
+
+}
+
+/**************************************************************************************************************/
+/* Propiedades Imagenes*/
+
+.sizeimagen{
+    
+    width:120px;
+    height:120px;
+   
+}
+
+
+.borderImagen{
+    box-shadow: 5px 5px 5px  #c0c1cc69; 
+}
+
+
+/*************************************************************************************************************************************/
+/* Propiedades textos*/
+
+.textoPresentacion{
+
+    font: 11px bold;
+}
+
+/* Texto presentaciones componentes grupo*/
+.texto{
+
+    font-size: 10px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body{
+        width: auto;
+        margin: 10px;
+    }
+
+    
+    .boxHeader{
+       
+        background-color: rgba(16, 89, 55, 0.549);
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    }
+    
+    .boxTitulo{
+       
+        background-color: rgba(16, 89, 55, 0.549);
+        float: left;
+        width: 100%;
+        height: 120px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    }
+    
+    .box{
+    
+        width: 100%;
+        height: 380px;
+        background-color: rgba(30, 93, 30, 0.721);
+        float: left;
+        margin-top: 15px;
+        box-shadow: 10px 10px 10px  #c0c1cc69;
+      
+    
+    }
+    
+    .boxTexto{
+        width: 65%;
+        height: 300px;
+        margin: 15px 25px;
+        float:left
+    }
+    
+    .boxPresentacion{
+    
+        background-color: rgba(30, 103, 48, 0.703);
+        float: left;
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    
+    }
+    
+    .sizeimagen{
+        
+        width:100px;
+        height:100px;
+        float: left;
+        margin: 60px 25px 45px 45px;  
+    }
+     
+
+    .textoPresentacion{
+    
+        color:rgb(223, 214, 222);
+        font: 10px bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align:justify;
+        margin: 30px;
+        float:left;
+    }
+
+    .texto{
+    
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color:white
+        
+    }
+
+    
+    .letraAvengers{
+        color:rgb(223, 214, 222);
+        font: 25px bold;
+        font-family: avengers;
+        text-transform: uppercase;
+        -webkit-text-stroke: 0.9px rgb(176, 21, 21); 
+    }
+    
+    .letraTitulo{
+    
+        color:rgb(223, 214, 222);
+        font: 40px bold;
+        font-family: avengers;
+        text-transform: uppercase;
+        text-align: center;
+        word-spacing: 25px;
+        -webkit-text-stroke: 0.9px rgb(176, 21, 21);
+       
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+    body{
+        width: auto;
+        margin: auto;
+    }
+    
+    
+    .boxHeader{
+       
+        background-color: rgba(16, 89, 55, 0.549);
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    }
+    
+    .boxTitulo{
+       
+        background-color: rgba(16, 89, 55, 0.549);
+        float: left;
+        width: 100%;
+        height: 120px;
+        margin-top: 50px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    }
+    
+    .box{
+    
+        width: 100%;
+        height: 600px;
+        background-color: rgba(30, 93, 30, 0.721);
+        float: left;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        box-shadow: 10px 10px 10px  #c0c1cc69;
+      
+    
+    }
+    
+    .boxTexto{
+        width: 60%;
+        height: 300px;
+        margin: 15px 25px;
+        float:left
+    }
+    
+    .boxPresentacion{
+    
+        background-color: rgba(30, 103, 48, 0.703);
+        float: left;
+        width: 100%;
+        height: 250px;
+        margin-top: 50px;
+        box-shadow: 10px 10px 10px  #c0c1cc69; 
+    
+    }
+    
+    .borderBox{
+    
+        border-radius: 20px 20px 20px 20px;
+      
+      }
+
+    .sizeimagen{
+        
+        width:200px;
+        height:200px;
+        float: left;
+        margin: 60px 25px 45px 45px;
+
+    }
+    
+    
+    .borderImagen{
+        border-radius: 100px 100px 100px 100px; 
+        box-shadow: 10px 10px 7px  #c0c1cc69; 
+    }
+    
+    .textoPresentacion{
+    
+        color:rgb(223, 214, 222);
+        font: 15px bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align:justify;
+        margin: 30px;
+        float:left;
+    }
+    
+
+    .texto{
+    
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color:white
+        
+    }
+
+ 
+    .letraAvengers{
+        color:rgb(223, 214, 222);
+        font: 25px bold;
+        font-family: avengers;
+        text-transform: uppercase;
+        -webkit-text-stroke: 0.9px rgb(176, 21, 21); 
+    }
+    
+    .letraTitulo{
+    
+        color:rgb(223, 214, 222);
+        font: 40px bold;
+        font-family: avengers;
+        text-transform: uppercase;
+        text-align: center;
+        word-spacing: 25px;
+        -webkit-text-stroke: 0.9px rgb(176, 21, 21);
+       
+    }
+    
+    footer.boxFooter{
+
+        background-color:  rgba(45, 13, 20, 0.779);
+        width: 99.50%;
+        height: 220px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+        
+    } 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

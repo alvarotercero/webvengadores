@@ -1,0 +1,401 @@
+
+
+@font-face {
+    font-family: avengers;
+    src:url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+.boxAside{
+
+    background-color: rgba(45, 13, 20, 0.445);
+    background-position:  left 35%  bottom 45% ;
+    float: left;
+    width: 28%;
+    height: 1425px;
+    margin-left: 25px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+
+}
+
+/***************************************************************************************/
+/* Caja publicidad Guardianes */
+.contenedor1{
+   
+    width: 300px;
+    height: 475px;
+    margin-left: 33px;
+    margin-top: 40px;
+    float:left;
+}
+.tarjeta1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente1, .trasera1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente1{
+    background-image: url(../imagenes/GUARDIANES-DE-LA-GALAXIA-afiche.jpg);
+    background-repeat: no-repeat;
+}
+
+.trasera1{
+    transform: rotateY(180deg);
+    background-image: url(../imagenes/GUARDIANES-DE-LA-GALAXIA-afiche.jpg);
+    background-repeat: no-repeat;
+}
+
+.contenedor1:hover .tarjeta1{
+    transform: rotateY(180deg);
+}
+
+
+/***********************************************************************************************************/
+
+/*cartel ya en cines */
+#texto{
+
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: avengers;
+    color:white;
+    word-spacing: 13px;
+    text-transform: uppercase; 
+    
+}
+
+
+.contenedor{
+
+    width: 300px;
+    height: 200x;
+    margin-left: 33px;
+    margin-top: 40px;
+    float:left;  
+    background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.704));
+
+}
+
+.contenedor:hover {
+    filter: opacity(0.5);
+    box-shadow: 8px 8px 8px  #b3b5caa6;
+}
+
+/**************************************************************************************************************/
+/*contenedor compra entradas */
+
+#texto2{
+
+    margin-top: 25px;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-family: avengers;
+    color:white;
+    word-spacing: 13px;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+
+.contenedor2{
+
+    width: 300px;
+    height: 200x;
+    margin-left: 33px;
+    margin-top: 40px;
+    float:left;
+    background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.785));
+    padding: 15px 0px;
+
+}
+
+.contenedor2:hover {
+    filter: opacity(0.5);
+    box-shadow: 8px 8px 8px  #b3b5caa6;
+}
+
+
+
+/************************************************************************************************************/
+/*bordes cajas */
+.boxBorder{
+    border-radius:  25px;
+    box-shadow: 8px 8px 8px #b3b5caa6;
+}
+
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .boxAside{
+        width: 47%;
+        margin-top: 15px;
+        margin-left: 5px;
+        display: none;
+    }
+    .contenedor{
+        width: 180px;
+        height: 70px;
+        margin-left: 8px;
+    }
+    #texto{
+        font-size: 14px;
+        word-spacing: 0;
+        margin-top: 10px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        -webkit-text-stroke: 5ppx rgb(3, 2, 2);
+        
+    }
+    .contenedor1{
+        width: 95%;
+        margin-left: 5px;
+        height: 350px;
+    }
+    .frente1{
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    .boxAside{
+
+        float: none;
+        position: absolute;
+        left: 61%;
+        top: 250px;
+        width: 35%;
+        height: 1200px;
+        margin-left: 15px;
+        margin-top: 0px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    
+    }
+    
+    /***************************************************************************************/
+    /* Caja publicidad Guardianes */
+    .contenedor1{
+       
+        width: 220px;
+        height: 375px;
+        margin: 10px;
+      
+    }
+    
+    .frente1{
+        background-size: cover;
+    }
+    
+    .trasera1{
+        background-size: cover;
+    }
+    
+    
+    /***********************************************************************************************************/
+    
+    /*cartel ya en cines */
+    #texto{
+    
+        margin-top: 20px;
+        font-size: 15px;
+        word-spacing: 10px;
+        
+    }
+    
+    
+    .contenedor{
+    
+        width: 200px;
+        height: auto;
+        margin: 10px;
+        float:none;
+        padding: 5px;  
+        background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.704));
+    
+    }
+    
+    .contenedor:hover {
+        box-shadow: 8px 8px 8px  #b3b5caa6;
+    }
+    
+    /**************************************************************************************************************/
+    /*contenedor compra entradas */
+    
+    #texto2{
+    
+        margin: 10px;
+        font-size: 15px;
+        word-spacing: 10px;
+        
+    }
+    
+    
+    .contenedor2{
+    
+        width: 150px;
+        height: auto;
+        margin: 10px;
+        margin-left: 50px
+    
+    }
+    
+    .contenedor2:hover {
+        box-shadow: 8px 8px 8px  #b3b5caa6;
+    } 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .boxAside{
+
+        background-color: rgba(45, 13, 20, 0.445);
+        background-position:  left 35%  bottom 45% ;
+        float: left;
+        width: 45%;
+        height: 1425px;
+        margin-left: 25px;
+        margin-top: 40px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+    
+    }
+
+    .contenedor1{
+   
+        width: 250px;
+        height: 475px;
+        margin-left: 33px;
+        margin-top: 40px;
+        float:left;
+    }
+
+    .contenedor2{
+
+        width: 250px;
+        height: 200x;
+        margin-left: 33px;
+        margin-top: 40px;
+        float:left;
+        background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.785));
+        padding: 15px 0px;
+    
+    }
+
+    #texto2{
+
+        margin-top: 25px;
+        margin-left: 35px;
+        text-align: center;
+        font-size: 15px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+        text-transform: uppercase; 
+        text-align: center;
+    }
+    
+    .contenedor{
+
+        width: 250px;
+        height: 200x;
+        margin-left: 33px;
+        margin-top: 40px;
+        float:left;  
+        background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.704));
+    
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .boxAside{
+
+        background-color: rgba(45, 13, 20, 0.445);
+        background-position:  left 35%  bottom 45% ;
+        float: left;
+        width: 37%;
+        height: 1425px;
+        margin-left: 25px;
+        margin-top: 40px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+    
+    }
+
+    .contenedor1{
+   
+        width: 300px;
+        height: 475px;
+        margin-left: 30px;
+        margin-top: 40px;
+        float:left;
+    }
+
+    .contenedor2{
+
+        width: 300px;
+        height: 200x;
+        margin-left: 30px;
+        margin-top: 40px;
+        float:left;
+        background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.785));
+        padding: 15px 0px;
+    
+    }
+
+    #texto2{
+
+        margin-top: 25px;
+        margin-left: 35px;
+        text-align: center;
+        font-size: 15px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+        text-transform: uppercase; 
+        text-align: center;
+    }
+    
+    .contenedor{
+
+        width: 300px;
+        height: 200x;
+        margin-left: 30px;
+        margin-top: 40px;
+        float:left;  
+        background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.704));
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

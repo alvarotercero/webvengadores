@@ -1,0 +1,539 @@
+
+/* letra importada*/
+@font-face {
+    font-family: avengers;
+    src:url(../../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+.container{
+    background-image: url(../../imagenes/FondoNoticias.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*************************************************************************************/
+.boxHeader{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(124, 104, 238, 0.592);
+    margin-top: 35px;
+    border-radius: 100px 300px;
+    box-shadow: 10px 10px 10px #b3b5caa6
+}
+
+
+/* texto cabecera*/
+#letraHeader{
+
+    color:rgb(223, 214, 222);
+    font: 100px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+ /* centrar elemntos*/
+.centrarElementos{
+    display: flex;
+    justify-content: center; /*alineacion horizontal*/
+    align-items: center;  
+}
+
+
+/*************************************************************************************/
+.boxArticle{
+    width: 100%;
+    height: 1600px;
+    background-color:rgba(255, 0, 128, 0.756);
+    margin-top:35px;
+}
+
+/************************************************************************************************/
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+/****************************************************************************************************/
+/* CAJAS */
+
+.boxImage1{
+  
+    width: 900px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+    margin: 45px 35px 25px 55px;
+    
+    
+}
+
+
+.boxImage2{
+  
+    width: 900px;
+    height: 400px;
+    margin-left: 45px;
+    float: left;
+    margin: 35px 35px 35px 35px;
+    
+}
+
+.box{
+  
+    width: 200px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+    margin: 35px;
+    
+}
+
+
+.box2{
+  
+    width: 90%;
+    height: 80px;
+    margin-left: 45px;
+    float: left;
+    margin:  15px 55px;
+    
+}
+
+
+.box3{
+  
+    width: 180px;
+    height: 300px;
+    margin-left: 45px;
+    float: left;
+    margin: 55px;
+    
+    
+}
+
+.box4{
+  
+    width: 90%;
+    height: 200px;
+    margin-left: 45px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    
+}
+
+
+/***************************************************************************/
+
+.estiloParrafo{
+
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    
+
+}
+
+#estiloTitulo{
+    color:  rgba(27, 70, 164, 0.803);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    -webkit-text-stroke: 0.1px whitesmoke;
+   
+}
+
+/******************************************************************************/
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    
+    body{
+        width: auto;
+    } 
+    
+    /*************************************************************************************/
+    .boxHeader{
+        height: 100px;
+        box-shadow: 5px 5px 5px #b3b5caa6
+    }
+    
+    
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+    
+    /*************************************************************************************/
+    .boxArticle{
+        height: 1700px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    /************************************************************************************************/
+    
+    .borderBox{
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+    /****************************************************************************************************/
+    /* CAJAS */
+    
+    .boxImage1{
+      
+        width: 300px;
+        height: 200px;
+        float: none;
+    
+    }
+    
+    
+    .boxImage2{
+      
+        width: 300px;
+        height: 200px;
+        float: none;
+        
+    }
+    
+    .box{
+      
+        width: 350px;
+        height: auto;
+       
+        float: none;
+        margin: 0px;
+        margin-left: 15px;
+        
+    }
+    
+    
+    .box2{
+      
+        width: 350px;
+        height: auto;
+        float: none;
+        margin:  0px;
+        margin-left: 15px;
+    }
+    
+    
+    .box3{
+      
+        width: 350px;
+        height: auto;
+        float: none;
+        margin:  0px;
+        margin-left: 15px;
+        
+    }
+    
+    .box4{
+      
+        width: 350px;
+        height: auto;
+        float: none;
+        margin:  0px;
+        margin-left: 15px;
+        
+    }
+    
+    
+    /***************************************************************************/
+    
+    .estiloParrafo{
+    
+        font-size: 15px;
+    
+    }
+    
+    #estiloTitulo{
+    
+        font-size: 30px;
+    
+    }
+    }
+    
+    
+    @media screen and (max-height: 700px) and (orientation: landscape){
+        body{
+            width: auto;
+        } 
+        
+        /*************************************************************************************/
+        .boxHeader{
+            height: 100px;
+            box-shadow: 5px 5px 5px #b3b5caa6
+        }
+        
+        
+        /* texto cabecera*/
+        #letraHeader{
+            font-size: 50px;
+        }
+        
+        /*************************************************************************************/
+        .boxArticle{
+            height: auto;
+            padding-top: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 25px;
+        }
+        
+        /************************************************************************************************/
+        
+        .borderBox{
+            box-shadow: 5px 5px 5px #b3b5caa6;
+        }
+        
+        /****************************************************************************************************/
+        /* CAJAS */
+        
+        .boxImage1{
+          
+            width: 300px;
+            height: 200px;
+            float: none;
+            margin-left: 180px;
+        }
+        
+        
+        .boxImage2{
+          
+            width: 300px;
+            height: 200px;
+            float: none;
+            margin-left: 180px;
+            
+        }
+        
+        .box{
+          
+            width: 95%;
+            height: auto;
+           
+            float: none;
+            margin: 0px;
+            margin-left: 15px;
+            
+        }
+        
+        
+        .box2{
+          
+            width: 95%;
+            height: auto;
+            float: none;
+            margin:  0px;
+            margin-left: 15px;
+        }
+        
+        
+        .box3{
+          
+            width: 95%;
+            height: auto;
+            float: none;
+            margin:  0px;
+            margin-left: 15px;
+            
+        }
+        
+        .box4{
+          
+            width: 95%;
+            height: auto;
+            float: none;
+            margin:  0px;
+            margin-left: 15px;
+            
+        }
+        
+        
+        /***************************************************************************/
+        
+        .estiloParrafo{
+        
+            font-size: 15px;
+            text-align: justify;
+        
+        }
+        
+        #estiloTitulo{
+        
+            font-size: 30px;
+        
+        }
+    }
+
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+        body{
+            width: auto;
+            margin: 15px;
+        } 
+    
+    
+        .boxImage1{
+      
+            width: 600px;
+            height: 300px;
+            margin-left: 45px;
+            float: left;
+            margin: 150px 35px 25px 55px;
+            
+        }
+    
+        .box{
+      
+            width: 650px;
+            height: 100px;
+            float: left;
+            margin: 35px;
+            text-align: justify; 
+        }
+    
+        
+        .box3{
+        
+            width: 650px;
+            height: 100px;
+            float: left;
+            margin: 35px;   
+            text-align: justify;
+        }
+    
+        .boxImage2{
+      
+            width: 600px;
+            height: 200px;
+    
+            float: left;
+            margin: 35px 35px 35px 55px;
+            
+        }
+    
+        .box2{
+      
+            width: 90%;
+            height: 200px;
+            margin-left: 45px;
+            float: left;
+            margin:  15px 55px;
+            text-align: justify;
+            
+        }
+    
+        .boxArticle{
+            width: 100%;
+            height: 1800px;
+            background-color:rgba(255, 0, 128, 0.756);
+            margin-top:35px;
+        }
+    
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    
+        body{
+            width: auto;
+            margin: 15px;
+        } 
+    
+        .boxImage1{
+      
+            width: 850px;
+            height: 400px;
+            margin-left: 45px;
+            float: left;
+            margin: 95px 35px 25px 55px;
+              
+        }
+    
+        .box{
+      
+            width: 900px;
+            height: 100px;
+            margin-left: 60px;
+            float: left;
+            margin: 35px;
+            text-align: justify;
+            
+        }
+        
+        .box3{
+        
+            width: 900px;
+            height: 100px;
+            float: left;
+            margin: 35px;   
+            text-align: justify;
+        }
+    
+        .boxArticle{
+            width: 100%;
+            height: 1900px;
+            background-color:rgba(255, 0, 128, 0.756);
+            margin-top:35px;
+        }
+        .boxImage2{
+      
+            width: 900px;
+            height: 300px;
+            margin-left: 45px;
+            float: left;
+            margin: 35px 35px 35px 35px;
+        }
+    
+        .box2{
+      
+            width: 90%;
+            height: 150px;
+            margin-left: 45px;
+            float: left;
+            margin:  15px 45px;
+            text-align: justify;
+            
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+

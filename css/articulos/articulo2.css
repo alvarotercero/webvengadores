@@ -1,0 +1,984 @@
+/* letra importada*/
+@font-face {
+    font-family: avengers;
+    src:url(../../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+.container{
+    background-image: url(../../imagenes/FondoNoticias.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/************************************************************************************************/
+/* CABECERA */
+.boxHeader{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(124, 104, 238, 0.592);
+    margin-top: 35px;
+    border-radius: 100px 300px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+/* texto cabecera*/
+#letraHeader{
+
+    color:rgb(223, 214, 222);
+    font: 100px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+ /* centrar elemntos*/
+.centrarElementos{
+    display: flex;
+    justify-content: center; /*alineacion horizontal*/
+    align-items: center;  
+}
+
+/************************************************************************************************/
+
+.boxArticle{
+    width: 100%;
+    height: 3200px;
+    background-color: rgba(255, 0, 128, 0.756);;
+    margin-top:35px;
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+h3{
+    position: relative;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 50px;
+    color: rgba(52, 106, 224, 0.847);
+    -webkit-text-stroke: 0.1px whitesmoke;
+}
+
+/***********************************************************************************************/
+/* 1 */
+
+.tamañoFoto{
+    width: 500px;
+    height: 300px; 
+    border-radius: 75px; 
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.box{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    float: left;
+    
+
+}
+
+.boxImage{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+/************************************************************************************************************/
+/* 2*/
+
+.tamañoFoto2{
+    width: 500px;
+    height: 300px; 
+    border-radius: 75px; 
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.box2{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+    
+}
+
+.boxImage2{
+
+    width: 300px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+
+/************************************************************************************************************/
+/* 3*/
+
+.tamañoFoto3{
+    width: 500px;
+    height: 300px; 
+    border-radius: 75px; 
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.box3{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    float: left;
+    
+
+}
+
+.boxImage3{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+/************************************************************************************************************/
+/* 4*/
+
+.tamañoFoto4{
+    width: 500px;
+    height: 300px; 
+    border-radius: 75px; 
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.box4{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+    
+}
+
+.boxImage4{
+
+    width: 300px;
+    height: 500px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+
+/************************************************************************************************************/
+/* 5*/
+.tamañoFoto5{
+    width: 500px;
+    height: 300px; 
+    border-radius: 75px; 
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.box5{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    float: left;
+    
+
+}
+
+.boxImage5{
+
+    width: 500px;
+    height: 300px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+
+
+/*************************************************************************************************************/
+/* Propiedades textos */
+
+.estiloParrafo{
+
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    float: left;
+}
+
+#estiloSubtitulo{
+    color:  rgba(52, 106, 224, 0.847);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.margen{
+    margin:35px 70px 35px 70px;
+}
+
+/* Propiedades conjuntas */
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    body{
+        width: auto;
+    } 
+    
+    .container{
+        background-image: none;
+        background-color: rgb(135, 176, 230);
+    }
+    /************************************************************************************************/
+    /* CABECERA */
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+
+    /************************************************************************************************/
+    
+    .boxArticle{
+        width: 100%;
+        height: 3300px;
+        background-color: rgba(255, 0, 128, 0.756);;
+        margin-top:15px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+    }
+    
+    
+    h3{
+        font-size: 25px;
+        margin-right: 0px;
+    }
+    
+    /***********************************************************************************************/
+    /* 1 */
+    
+    .tamañoFoto{
+        width: 200px;
+        height: 150px; 
+        border-radius: 75px; 
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    
+    .box{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        
+    
+    }
+    
+    .boxImage{
+    
+        width: 500px;
+        height: 150px;
+        margin-left: 70px;
+        float: none;
+    }
+    
+    /************************************************************************************************************/
+    /* 2*/
+    
+    .tamañoFoto2{
+        width: 250px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    
+    .box2{
+    
+        width: 350px;
+        margin-left: 10px;
+        height: auto;
+        float: none;
+        
+    }
+    
+    .boxImage2{
+    
+        width: 100px;
+        height: 180px;
+        margin-left: 10px;
+        float: none;
+    
+    }
+    
+    
+    /************************************************************************************************************/
+    /* 3*/
+    
+    .tamañoFoto3{
+        width: 300px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .box3{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        
+    
+    }
+    
+    .boxImage3{
+    
+        width: 100px;
+        height: 250px;
+        margin-left: 0px;
+        float: none;
+    
+    }
+    
+    /************************************************************************************************************/
+    /* 4*/
+    
+    .tamañoFoto4{
+        width: 300px;
+        height: 200px;  
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .box4{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        
+    }
+    
+    .boxImage4{
+    
+        width: 100px;
+        height: 180px;
+        margin-left: 10px;
+        float: none;
+    
+    }
+    
+    
+    /************************************************************************************************************/
+    /* 5*/
+    .tamañoFoto5{
+        width: 300px;
+        height: 200px; 
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    
+    .box5{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        margin-top: 60px;
+        
+    
+    }
+    
+    .boxImage5{
+    
+        width: 100px;
+        height: 180px;
+        margin-left: 10px;
+        float: none;
+    }
+    
+    
+    
+    /*************************************************************************************************************/
+    /* Propiedades textos */
+    
+    .estiloParrafo{
+    
+        font-size: 15px;
+        float: none;
+    }
+    
+    
+    
+    .margen{
+       
+        margin: 10px;
+    }
+    
+    /* Propiedades conjuntas */
+    
+    .borderBox{
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    body{
+        width: auto;
+    } 
+    
+    /************************************************************************************************/
+    /* CABECERA */
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+
+    /************************************************************************************************/
+    
+    .boxArticle{
+        width: 100%;
+        height: 2000px;
+        background-color: rgba(255, 0, 128, 0.756);;
+        margin-top:15px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+    }
+    
+    
+    h3{
+        font-size: 25px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    /***********************************************************************************************/
+    /* 1 */
+    
+    .tamañoFoto{
+        width: 400px;
+        height: 250px; 
+        border-radius: 75px; 
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    
+    .box{
+    
+        width: 95%;
+        height: auto;
+        margin-top: 120px;
+        margin-left: 20px;
+        float: none;
+        
+    
+    }
+    
+    .boxImage{
+    
+        width: 500px;
+        height: 150px;
+        margin-left: 70px;
+        float: none;
+    
+    }
+    
+    /************************************************************************************************************/
+    /* 2*/
+    
+    .tamañoFoto2{
+        width: 300px;
+        height:200px; 
+        border-radius: 75px; 
+        margin-top: 0px;
+        margin-left: 175px;
+    }
+    
+    .box2{
+    
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        float: none;
+    }
+    
+    .boxImage2{
+    
+        width: 100px;
+        height: 180px;
+        margin-left: 10px;
+        float: none;
+    
+    }
+    
+    
+    /************************************************************************************************************/
+    /* 3*/
+    
+    .tamañoFoto3{
+        width: 270px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin: 0;
+    }
+    
+    .box3{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: left;
+        margin-top: 15px;
+        
+    
+    }
+    
+    .boxImage3{
+    
+        width: 100px;
+        height: 250px;
+        margin-left: 0px;
+        float: right;
+        margin-right: 190px;
+        margin-top: 50px;
+    }
+    
+    /************************************************************************************************************/
+    /* 4*/
+    
+    .tamañoFoto4{
+        width: 250px;
+        height: 200px;  
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    
+    .box4{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: left;
+        margin-right: 0;
+        
+    }
+    
+    .boxImage4{
+    
+        width: 100px;
+        height: 250px;
+        margin-left: 0px;
+        float: right;
+        margin-right: 170px;
+        margin-top: 0px;
+    
+    }
+    
+    
+    /************************************************************************************************************/
+    /* 5*/
+    .tamañoFoto5{
+        width: 250px;
+        height: 180px; 
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .box5{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 20px;
+        float: left;
+        margin-right: 0;
+        margin-top: 0;
+    
+    }
+    
+    .boxImage5{
+    
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+        float: left;
+        margin-right: 0px;
+        margin-top: 150px;
+    }
+    
+    
+    
+    /*************************************************************************************************************/
+    /* Propiedades textos */
+    
+    .estiloParrafo{
+    
+        font-size: 13px;
+        float: none;
+        
+    }
+    
+    #estiloSubtitulo{
+        text-align: center;
+    }
+    
+    .margen{
+       
+        margin: 10px;
+    }
+    
+    /* Propiedades conjuntas */
+    
+    .borderBox{
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body{
+        width: auto;
+        margin: 15px;
+    } 
+
+    .boxImage2{
+
+       display: none;
+    }
+    
+
+    .boxImage5{
+
+        display: none;
+    }
+    
+    .boxArticle{
+        width: 100%;
+        height: 4200px;
+        background-color: rgba(255, 0, 128, 0.756);;
+        margin-top:15px;
+        padding-top: 35px;
+        margin-bottom: 10px;
+    }
+
+
+    .boxImage{
+
+        width: 400px;
+        height: 350px;
+        margin-left: 75px;
+        float: left;
+    
+    }
+
+    .box{
+
+        width: 500px;
+        height: 400px;
+        margin-left: 100px;
+        float: left;
+        
+    
+    }
+
+    .box2{
+
+        width: 500px;
+        height: 400px;
+        margin-left: 100px;
+        float: left;
+        
+    }
+
+    .box3{
+
+        width: 500px;
+        height: 400px;
+        margin-left: 100px;
+        float: left;
+        
+    }
+
+    .box4{
+
+        width: 500px;
+        height: 400px;
+        margin-left: 100px;
+        float: left;
+        
+    }
+
+    .box5{
+
+        width: 500px;
+        height: 400px;
+        margin-left: 100px;
+        float: left;
+        
+    }
+
+    .margen{
+        margin:25px 50px 25px 70px;
+    }
+    .boxImage4{
+
+        width: 300px;
+        height: 400px;
+        margin-left: 75px;
+        float: left;
+    
+    }
+}
+
+.boxImage3{
+
+    width: 500px;
+    height: 400px;
+    margin-left: 75px;
+    float: left;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   
+
+    body{
+        width: auto;
+        margin: 15px;
+        height: 3000px;
+    } 
+
+    boxArticle{
+        width: 100%;
+        height: 2200px;
+        background-color: rgba(255, 0, 128, 0.756);;
+        margin-top:35px;
+        padding-top: 35px;
+        margin-bottom: 20px;
+    }
+    
+    
+    h3{
+        position: relative;
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 50px;
+        color: rgba(52, 106, 224, 0.847);
+        -webkit-text-stroke: 0.1px whitesmoke;
+    }
+    
+  
+    .tamañoFoto{
+        width: 400px;
+        height: 300px; 
+        border-radius: 75px; 
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    
+    .box{
+    
+        width: 400px;
+        height: 400px;
+        margin-left: 60px;
+        float: left;
+        
+    
+    }
+    
+    .boxImage{
+    
+        width: 400px;
+        height: 400px;
+        margin-left: 25px;
+        float: left;
+    
+    }
+
+    .tamañoFoto2{
+        width: 300px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    
+    .box2{
+    
+        width: 500px;
+        height: 300px;
+        margin-left: 45px;
+        float: left;
+        
+    }
+    
+    .boxImage2{
+    
+        width: 300px;
+        height: 200px;
+        margin-left: 45px;
+        float: left;
+    
+    }
+    
+
+    
+    .tamañoFoto3{
+        width: 500px;
+        height: 300px; 
+        border-radius: 75px; 
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    
+    .box3{
+    
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        float: left;
+        
+    
+    }
+    
+    .boxImage3{
+    
+        width: 500px;
+        height: 300px;
+        margin-left: 45px;
+        float: left;
+    
+    }
+    
+    
+    .tamañoFoto4{
+        width: 500px;
+        height: 300px; 
+        border-radius: 75px; 
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    
+    .box4{
+    
+        width: 300px;
+        height: 400px;
+        margin-left: 45px;
+        margin-top: 65px;
+        float: left;
+        
+    }
+    
+    .boxImage4{
+    
+        width: 300px;
+        height: 400px;
+        margin-left: 45px;
+        margin-top:65px;
+        float: left;
+    
+    }
+    
+
+    .tamañoFoto5{
+        width: 500px;
+        height: 400px; 
+        border-radius: 75px; 
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    
+    .box5{
+    
+        width: 300px;
+        height: 500px;
+        margin-left: 100px;
+        float: left;
+        
+    
+    }
+    
+    .boxImage5{
+    
+        width: 500px;
+        height: 300px;
+        margin-left: 45px;
+        float: left;
+    
+    }
+    
+
+    .estiloParrafo{
+
+        font-size: 15px;
+        color: aliceblue;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+        float: left;
+    }
+
+    article{
+        height: 2500px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

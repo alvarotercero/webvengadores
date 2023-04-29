@@ -1,0 +1,176 @@
+@font-face {
+    font-family: avengers;
+    src: url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+.boxSection{
+    
+
+    background-color:rgba(45, 13, 20, 0.445);
+    float: left;
+    width: 70%;
+    height: 1400px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+
+
+
+.boxHeaderSection{
+
+    background-color: rgba(92, 159, 227, 0.7); /**rgba(45, 13, 20, 0.779)**/
+    float: left;
+    width: 92%;
+    height: 100px;
+    margin: 30px 35px 15px 35px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 40px;
+
+
+}
+
+#textoHeaderSection{
+    
+    color: rgb(87, 16, 87);
+    font-size: 55px;
+    font-family: avengers;
+    text-align: center;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+    text-transform: uppercase; 
+}
+
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .boxSection{
+        width: 95%;
+        height:400px;
+        margin: 10px 10px;
+        
+        
+    }
+
+    .boxHeaderSection{
+        width:95%;
+        height: 13px;
+        margin: 10px;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        
+    }
+
+    #textoHeaderSection{
+        font-size: 18px;
+        
+    }
+}
+
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    .boxSection{
+    
+        float: none;
+        width: 60%;
+        height: auto;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        padding-top: 25px;
+        margin-top: 90px;
+        margin-left: 15px;
+        margin-bottom: 40px;
+      
+    }
+    
+    
+    
+    .boxHeaderSection{
+    
+        float: none;
+        width: 90%;
+        height: auto;
+        margin: 15px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        padding-top: 30px;
+    
+    
+    }
+    
+    #textoHeaderSection{
+        
+        font-size: 35px;
+    
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .boxSection{
+    
+
+        background-color:rgba(45, 13, 20, 0.445);
+        float: left;
+        width: 50%;
+        height: 1400px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+        padding-top: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      
+    }
+ 
+    .boxHeaderSection{
+
+        background-color: rgba(92, 159, 227, 0.7); /**rgba(45, 13, 20, 0.779)**/
+        float: left;
+        width: 82%;
+        height: 100px;
+        margin: 30px 35px 15px 35px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+        padding-top: 40px;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .boxSection{
+    
+
+        background-color:rgba(45, 13, 20, 0.445);
+        float: left;
+        width: 60%;
+        height: 1400px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+        padding-top: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      
+    }
+ 
+.boxHeaderSection{
+
+    background-color: rgba(92, 159, 227, 0.7); /**rgba(45, 13, 20, 0.779)**/
+    float: left;
+    width: 82%;
+    height: 100px;
+    margin: 30px 35px 15px 35px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 40px;
+
+}
+
+}
+
+
+
+
+

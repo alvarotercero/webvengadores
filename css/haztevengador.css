@@ -1,0 +1,360 @@
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.containerFondo{
+    background-image:url(../imagenes/haztevengador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.boxTitulo{
+    background-color: mediumturquoise;
+    opacity: 0.9;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.Box{
+    background-color: mediumturquoise;
+    opacity: 0.9;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+.boxBorder{
+    border-radius:  25px;
+    box-shadow: 10px 10px 10px #34396ba6;
+}
+
+.boxFormulario{
+    background-color: mediumturquoise;
+    opacity: 0.9;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.letraTituloPrincipal{
+    color:rgb(255, 255, 255);
+    font: 45px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+    word-spacing: 15px; /*separacion entre palabras*/
+    -webkit-text-stroke: 2px #4184dc;
+}
+
+.letraTexto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 30px;
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+
+.margenesTitulo{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+form{
+    width:95%;
+    margin: auto;
+}
+
+form label{
+    width: 190px;
+    display: inline-block;
+}
+
+form input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .containerFondo{
+        background-color: rgb(17, 17, 87);
+        background-image: none;
+    }
+    
+    .boxTitulo{
+        width: 95%;
+        margin: 10px;
+        height: 50px;
+
+    }
+
+    .letraTituloPrincipal{
+        font-size: 25px;
+        -webkit-text-stroke: 1px #4184dc;
+    }
+
+    .Box{
+        width: 95%;
+        margin: 10px;
+        height: 80px;
+        margin-top: 3px;
+    }
+
+    .letraTexto{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .boxFormulario{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    #pass , #usuario , #nombre ,  #apellidos , #telefono , #fechanacimiento, #email{
+       width:150px;
+       height: 11px;
+       position: absolute;
+       left: 110px;
+       font-size: 10px;
+    }
+
+    #fechanacimiento{
+        left: 160px;
+        width: 103px;
+    }
+
+    #email{
+        left: 145px;
+    }
+
+    #obser{
+        width: 98%;
+        font-size: 10px;
+    }
+
+    #boton{
+        width: 70px;
+        font-size: 8px;
+        position: absolute;
+        left: 150px;
+    }
+
+    #botonR{
+        width: 90px;
+        font-size: 8px; 
+        position: absolute;
+    }
+
+    #continente{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    
+    
+    .boxTitulo{
+        width: 96%;
+        margin: 10px;
+        margin-left: 12px;
+        height: 50px;
+
+    }
+
+    .letraTituloPrincipal{
+        font-size: 25px;
+        -webkit-text-stroke: 1px #4184dc;
+    }
+
+    .Box{
+        width: 96%;
+        margin: 10px;
+        margin-left: 12px;
+        height: 80px;
+        margin-top: 3px;
+    }
+
+    .letraTexto{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .boxFormulario{
+        width: 96%;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+
+    #pass , #usuario , #nombre ,  #apellidos , #telefono , #fechanacimiento, #email{
+       width:150px;
+       height: 11px;
+       position: absolute;
+       left: 110px;
+       font-size: 10px;
+    }
+
+    #fechanacimiento{
+        left: 160px;
+        width: 103px;
+    }
+
+    #email{
+        left: 145px;
+    }
+
+    #obser{
+        width: 98%;
+        font-size: 10px;
+    }
+
+    #boton{
+        width: 70px;
+        font-size: 8px;
+        position: absolute;
+        left: 150px;
+    }
+
+    #botonR{
+        width: 90px;
+        font-size: 8px; 
+        position: absolute;
+    }
+
+    #continente{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body{
+        width: auto;
+        margin: 15px;
+        
+    }
+    
+    .boxTitulo{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 99%;
+        height: 65px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: left;
+        padding-bottom: 30px;
+    }
+    
+    .Box{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 99%;
+        height: 110px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
+        float: left;
+    }
+    
+    .boxFormulario{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 99%;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        float: left;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body{
+        width: auto;
+        margin: auto;
+        
+    }
+    
+    .containerFondo{
+        background-image:url(../imagenes/haztevengador.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    }
+    
+    .boxTitulo{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: left;
+        padding-bottom: 30px;
+    }
+    
+    .Box{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 100%;
+        height: 110px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
+        float: left;
+    }
+    
+    .boxFormulario{
+        background-color: mediumturquoise;
+        opacity: 0.9;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        float: left;
+    }
+
+}
+
+
+
+
+
+

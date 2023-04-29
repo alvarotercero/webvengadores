@@ -1,0 +1,335 @@
+@font-face {
+    font-family: avengers;
+    src: url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+/* **************************************************************** */
+.main-menu{
+    background-color: rgba(92, 159, 227, 0.779);
+    float: left;
+    width: 100%;
+    box-shadow: 10px 10px 10px #b3b5ca9b;
+    z-index: 2;
+    position: relative;
+
+}
+
+.main-menu > ul >li {
+    float:left; /** Horizintalmente los links*/
+    margin: 20px 0;
+}
+
+.main-menu > ul >li > a{
+
+    color:black;
+    padding: 20px 60px;
+    
+}
+.border{
+    border-right: solid 1px white;
+}
+.main-menu > ul >li > a:hover{
+    background-color:  rgba(50, 89, 129, 0.779);
+
+}
+
+/* Submenu*/
+.main-menu > ul >li > ul{
+
+    display: none; /* para que al pasar no se vea la sublista*/
+    position: absolute;
+    margin-top: 20px;
+    width: 205px;
+}
+
+/*Seleccion de los enlaces, dentro de aqui volvemos a redefinir los "a" para que no salgan 
+igual que en el menu principal*/
+.main-menu > ul >li > ul > li > a{
+
+    display:block;
+    color:black;
+    background-color: rgba(137, 175, 214, 0.779);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-top: solid 1px white;
+
+}
+
+/*Vamos a ponerle el hoover a la sublista*/
+
+.main-menu > ul >li > ul > li > a:hover{
+
+    background-color:  rgba(50, 89, 129, 0.779);
+
+    
+}
+
+.main-menu >ul> li:hover > ul {
+    display:block;
+    box-shadow: 10px 10px 10px #b3b5ca9b; 
+}
+
+
+
+/** Vamos a quitarle a la etiqueta <a> el texto decorativo que hay por debajo**/
+
+a{
+    text-decoration: none;
+    padding: 46px; /* Separacion entre enlaces*/
+    font-size: 25px;
+    font-weight: bold;
+    font-family: avengers; /*letra importada*/
+    color: black;
+    transition: all 0.4S;
+}
+
+a:hover{
+
+    color:black
+
+}
+/** Quitamos a la lista desordenada el punto**/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+     /** todos los elementos de la lista, en linea flotante**/
+}
+/* Menu Mundo Marvel, vamos a modificar tanto el tamño de letra, como el ancho de la "Caja"*/
+
+.boxModificacion{
+    width: 15.50%;
+}
+
+
+.borderBox{
+    border-radius: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .main-menu {
+        width: 99%;
+        box-shadow: 2px 2px 2px #b3b5ca9b;
+        
+    }
+
+    .main-menu > ul >li{
+       margin: 5px 2px;
+        
+    }
+
+    .main-menu > ul >li > a{
+        padding: 4px;
+    }
+
+    a{
+        font-size:8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .main-menu > ul >li > ul{
+        width: 50px;
+        margin-top: 6px;
+       
+    }
+
+    .main-menu > ul >li > ul > li > a{
+        font-size: 7px;
+        padding: 4px;
+    }
+
+    
+    .main-menu >ul> li:hover > ul {
+        box-shadow: 5px 5px 5px #b3b5ca9b; 
+    }   
+
+    
+
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    .main-menu{
+    
+        box-shadow: 5px 5px 5px #b3b5ca9b;
+    
+    }
+    
+    .main-menu > ul >li {
+        margin: 10px 0;
+    }
+    
+    .main-menu > ul >li > a{
+        padding: 10px 20px;
+        
+    }
+    
+    
+    /* Submenu*/
+    .main-menu > ul >li > ul{
+        margin-top: 10px;
+        width: 100px;
+    }
+    
+    /*Seleccion de los enlaces, dentro de aqui volvemos a redefinir los "a" para que no salgan 
+    igual que en el menu principal*/
+    .main-menu > ul >li > ul > li > a{
+        font-size: 13px;
+        font-weight: 200;
+        padding: 10px;
+        border-top: solid 1px white;
+    
+    }
+    
+    
+    .main-menu >ul> li:hover > ul {
+        display:block;
+        box-shadow: 5px 5px 5px #b3b5ca9b; 
+    }
+    
+    
+    
+    /** Vamos a quitarle a la etiqueta <a> el texto decorativo que hay por debajo**/
+    
+    a{
+        text-decoration: none;
+        padding: 20px; /* Separacion entre enlaces*/
+        font-size: 18px;
+    
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .main-menu{
+        background-color: rgba(92, 159, 227, 0.779);
+        display:block;
+        width: 98.50%;
+        box-shadow: 10px 10px 10px #b3b5ca9b;
+        z-index: 2;
+        position: relative;
+    
+    }
+    
+    
+    .main-menu > ul >li > a{
+    
+        width: 30%;
+        color:black;
+        padding: 20px 20px;
+        border-right: solid 1px white;
+    }
+    
+    .main-menu > ul >li > ul > li > a{
+    
+        display:block;
+        color:black;
+        background-color: rgba(137, 175, 214, 0.779);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 15px;
+        border-top: solid 1px white;
+        width: 55px;
+        box-shadow: 10px 10px 10px #b3b5ca9b; 
+    }
+
+    .main-menu >ul> li:hover > ul {
+        display: block;
+        box-shadow: none; 
+    }
+    
+    a{
+        text-decoration: none;
+        padding: 26px; 
+        font-size: 15px;
+        font-weight: bold;
+        font-family: avengers; 
+        color: black;
+        transition: all 0.4S;
+    }
+    
+    
+}
+    
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+        .main-menu{
+            background-color: rgba(92, 159, 227, 0.779);
+            display:block;
+            width: 100% !important;
+            box-shadow: 10px 10px 10px #b3b5ca9b;
+            z-index: 2;
+            position: relative;
+            padding-top: 16px;
+            padding-bottom: 17px;
+        
+        }
+        
+        
+        .main-menu > ul >li > ul > li > a{
+        
+            display:block;
+            color:black;
+            background-color: rgba(137, 175, 214, 0.779);
+            font-size: 12px;
+            font-weight: bold;
+            padding: 15px;
+            border-top: solid 1px white;
+            width: 50px;
+            box-shadow: 10px 10px 10px #b3b5ca9b; 
+        }
+        
+        .main-menu >ul> li:hover > ul {
+            display: block;
+            box-shadow: none; 
+        }
+    
+        a{
+            text-decoration: none;
+            padding: 36px !important; 
+            font-size: 15px;
+            font-weight: bold;
+            font-family: avengers;
+            color: black;
+            transition: all 0.4S;
+            height: 25px !important;
+        }
+        
+        .main-menu > ul >li > a{
+    
+            width: 38%;
+            color:black;
+            padding: 20px 60px;
+            border-right: solid 1px white;
+        }
+        
+    
+        .boxModificacion{
+            width: 15.50%;
+        }
+        
+        .border{
+            
+            height: 15px;
+            border-right: solid 1px white;
+            
+        }
+        
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

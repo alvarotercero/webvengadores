@@ -1,0 +1,941 @@
+/* letra importada */
+
+@font-face {
+    font-family: avengers;
+    src:url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+body{
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background: linear-gradient(180deg, rgba(7,16,36,1) 26%, rgba(19,130,180,1) 49%, rgba(255,212,102,1) 100%);
+  
+}
+
+/***************************************************************************************/
+/*caja cabecera*/
+
+.boxTitulo{
+    background-color: rgba(13, 23, 107, 0.699);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+/***************************************************************************************/
+/*caja*/
+
+
+.Box{
+    background-color: rgba(32, 49, 147, 0.834);
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-top: 15px;
+    float: left;
+}
+
+
+
+/* cajas Imagenes/personajes */
+
+/***************************************************************************************/
+/* Caja 1 */
+.contenedor1{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+}
+
+.tarjeta1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente1, .trasera1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente1{
+    background-image: url(../imagenes/1.jpg);
+}
+
+.trasera1{
+    transform: rotateY(180deg);
+    background-color: rgba(10, 31, 66, 0.748);
+    
+}
+
+.contenedor1:hover .tarjeta1{
+    transform: rotateY(180deg);
+}
+
+
+/***************************************************************************************/
+/* Caja 2 */
+.contenedor2{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+    z-index: 1;
+}
+
+.tarjeta2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente2, .trasera2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente2{
+    background-image: url(../imagenes/Iron3.jpg);
+}
+
+.trasera2{
+    transform: rotateY(180deg);
+    background-color: rgba(96, 13, 6, 0.858);
+    
+}
+
+.contenedor2:hover .tarjeta2{
+    transform: rotateY(180deg);
+}
+
+
+/***************************************************************************************/
+/* Caja 3 */
+.contenedor3{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+}
+
+.tarjeta3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente3, .trasera3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente3{
+    background-image: url(../imagenes/Thor.jpg);
+}
+
+.trasera3{
+    transform: rotateY(180deg);
+    background-color: rgba(65, 58, 58, 0.663);
+    
+}
+
+.contenedor3:hover .tarjeta3{
+    transform: rotateY(180deg);
+}
+
+
+/***************************************************************************************/
+/* Caja 4 */
+.contenedor4{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+}
+
+.tarjeta4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente4, .trasera4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente4{
+    background-image: url(../imagenes/viuda.jpg);
+}
+
+.trasera4{
+    transform: rotateY(180deg);
+    background-color: rgba(54, 27, 114, 0.76);
+    
+}
+
+.contenedor4:hover .tarjeta4{
+    transform: rotateY(180deg);
+}
+
+
+/***************************************************************************************/
+/* Caja 5 */
+.contenedor5{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+}
+
+.tarjeta5{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente5, .trasera5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente5{
+    background-image: url(../imagenes/HulkAplasta2.jpg);
+}
+
+.trasera5{
+    transform: rotateY(180deg);
+    background-color: rgba(14, 104, 53, 0.741);
+    
+}
+
+.contenedor5:hover .tarjeta5{
+    transform: rotateY(180deg);
+}
+
+
+/***************************************************************************************/
+/* Caja 6 */
+.contenedor6{
+   
+    width: 400px;
+    height: 600px;
+    margin: 15px;
+    float:left;
+}
+
+.tarjeta6{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    
+}
+
+.frente6, .trasera6{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente6{
+    background-image: url(../imagenes/ojoHalcon.jpg);
+}
+
+.trasera6{
+    transform: rotateY(180deg);
+    background-color: rgba(13, 13, 78, 0.704);
+    
+}
+
+.contenedor6:hover .tarjeta6{
+    transform: rotateY(180deg);
+}
+
+
+/*********************************************************************************/
+
+/*propiedades conjuntas*/
+
+#nombrePersonaje{
+
+    margin-top: 500px;
+   text-align: center;
+    font-size: 35px;
+    font-family: avengers;
+    color:white;
+    word-spacing: 13px;
+}
+/*********************************************************************************
+/*propiedades cajas conjuntas */
+
+.boxBorder{
+    border-radius:  25px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+
+.letraPersonajes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 15px;
+    text-align: justify;
+}
+
+.letraTitulo{
+
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: avengers;
+    color:white;
+    word-spacing: 13px;
+}
+
+.letraTituloPrincipal{
+
+    color:rgb(255, 255, 255);
+    font: 45px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+    word-spacing: 15px; /*separacion entre palabras*/
+    -webkit-text-stroke: 2px #4184dc;
+
+    
+}
+
+.margenesTitulo{
+  
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*****************************************************************************************/
+
+.letraTexto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    body{
+        width: auto;
+    }
+    
+    /***************************************************************************************/
+    /*caja cabecera*/
+    
+    .boxTitulo{
+        
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: left;
+        padding-bottom: 0px;
+        
+    }
+    
+    /***************************************************************************************/
+    /*caja*/
+    
+    
+    .Box{
+        
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        padding-top: 35px;
+        padding-bottom: 5px;
+        float: none;
+    }
+    
+    
+    
+    /* cajas Imagenes/personajes */
+    
+    /***************************************************************************************/
+    /* Caja 1 */
+    .contenedor1{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 2 */
+    .contenedor2{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+    
+    
+    
+    /***************************************************************************************/
+    /* Caja 3 */
+    .contenedor3{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 4 */
+    .contenedor4{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 5 */
+    .contenedor5{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+    
+    /***************************************************************************************/
+    /* Caja 6 */
+    .contenedor6{
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+    }
+
+    /*********************************************************************************
+    /*propiedades cajas conjuntas */
+    #nombrePersonaje{
+
+        margin-top: 520px;
+       text-align: center;
+        font-size: 35px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+    }
+    
+    .boxBorder{
+        box-shadow: 4px 4px 4px #b3b5caa6;
+    }
+    
+    
+    .letraPersonajes{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 15px;
+        text-align: justify;
+    }
+    
+    .letraTitulo{
+    
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+    }
+    
+    .letraTituloPrincipal{
+    
+        font-size: 35px; 
+    }
+    
+    
+    /*****************************************************************************************/
+    
+    .letraTexto{
+
+        font-size: 10px;
+        margin: 30px;
+        padding: bottom 10px;
+    
+    }
+}
+
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    body{
+        width: auto;
+    }
+    
+    /***************************************************************************************/
+    /*caja cabecera*/
+    
+    .boxTitulo{
+        
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: left;
+        padding-bottom: 0px;
+        
+    }
+    
+    /***************************************************************************************/
+    /*caja*/
+    
+    
+    .Box{
+        
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+        margin-top: 210px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        float: none;
+    }
+    
+    
+    
+    /* cajas Imagenes/personajes */
+    
+    /***************************************************************************************/
+    /* Caja 1 */
+    .contenedor1{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 2 */
+    .contenedor2{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+    
+    
+    
+    /***************************************************************************************/
+    /* Caja 3 */
+    .contenedor3{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 4 */
+    .contenedor4{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+    
+    
+    /***************************************************************************************/
+    /* Caja 5 */
+    .contenedor5{
+       
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+    
+    /***************************************************************************************/
+    /* Caja 6 */
+    .contenedor6{
+        width: 350px;
+        height: 500px;
+        margin: 15px;
+        float:none;
+        margin-bottom: 70px;
+        padding-left: 150px;
+    }
+
+    /*********************************************************************************
+    /*propiedades cajas conjuntas */
+    #nombrePersonaje{
+
+        margin-top: 520px;
+       text-align: center;
+        font-size: 35px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+    }
+    
+    .boxBorder{
+        box-shadow: 4px 4px 4px #b3b5caa6;
+    }
+    
+    
+    .letraPersonajes{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 15px;
+        text-align: justify;
+    }
+    
+    .letraTitulo{
+    
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-family: avengers;
+        color:white;
+        word-spacing: 13px;
+    }
+    
+    .letraTituloPrincipal{
+    
+        font-size: 35px; 
+    }
+    
+    
+    /*****************************************************************************************/
+    
+    .letraTexto{
+
+        font-size: 10px;
+        margin: 30px;
+        padding: bottom 10px;
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+
+    body{
+        
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180deg, rgba(7,16,36,1) 26%, rgba(19,130,180,1) 49%, rgba(255,212,102,1) 100%);
+        margin: 15px;
+    }
+
+    .contenedor1{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .contenedor2{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+        z-index: 1;
+    }
+
+    .contenedor3{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .contenedor4{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+    
+    .contenedor5{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+    .contenedor6{
+   
+        width: 330px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .Box{
+        background-color: rgba(32, 49, 147, 0.834);
+        width: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        padding-top: 15px;
+        float: left;
+    }
+    
+    .letraTexto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 30px;
+        text-align: justify;
+    }
+
+    .letraPersonajes{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 15px;
+        text-align: justify;
+    }
+    
+    header .boxHeader{
+
+       
+            background-color: rgba(124, 47, 63, 0.779);
+            float: left;
+            width: 93%;
+            height: 150px;
+            padding: 25px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            box-shadow: 10px 10px 10px  #464f93a6; /**sombra cabecera**/
+        
+           /** meter una sombra a la caja del recuadro**/ 
+        }
+
+        
+    header #textoCabecera{
+            color:rgb(223, 214, 222);
+            font: 60px bold;
+            font-family: avengers;
+            text-align: center;
+            text-transform: uppercase; 
+            word-spacing: 20px;
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* Responsive ipad horizontal */
+
+
+
+    body{
+        
+        width: auto;
+        background: linear-gradient(180deg, rgba(7,16,36,1) 26%, rgba(19,130,180,1) 49%, rgba(255,212,102,1) 100%);
+        margin: auto;
+    }
+
+    
+    header .boxHeader{
+
+        margin-left: 0;
+        background-color: rgba(124, 47, 63, 0.779);
+        float: left;
+        width: 95%;
+        height: 150px;
+        padding: 25px;
+        margin-top: 25px ;
+        margin-bottom: 25px;
+        box-shadow: 10px 10px 10px  #464f93a6; /**sombra cabecera**/
+        
+        }
+
+ .contenedor1{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .contenedor2{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+        z-index: 1;
+    }
+
+    .contenedor3{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .contenedor4{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+    
+    .contenedor5{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+    .contenedor6{
+   
+        width: 300px;
+        height: 600px;
+        margin: 15px;
+        float:left;
+    }
+
+    .letraPersonajes{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 15px;
+        text-align: justify;
+    }
+
+    .letraTexto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 30px;
+        text-align: justify;
+    }
+    
+    footer.boxFooter{
+
+        background-color:  rgba(45, 13, 20, 0.779);
+        width: 99.50%;
+        height: 220px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+    }
+    
+
+}
+
+
+
+
+
+
+

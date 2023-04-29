@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: avengers;
+    src: url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+
+.boxSectionFooter{
+
+    background-color:rgba(92, 159, 227, 0.577);
+    float: left;
+    width: 92%;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 25px;
+    box-shadow: 20px 20px 20px #b3b5ca9b;
+
+}
+
+.pieSec{
+    font-family: avengers;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:  rgb(83, 12, 106);
+    -webkit-text-stroke: 0.15px rgb(255, 255, 255);
+}
+
+.enlaceForm{
+    margin: 0;
+    padding: 5px;
+    padding-top: 0px;
+    color:  rgb(83, 12, 106);
+    -webkit-text-stroke: 0.01px rgb(235, 178, 230);
+    
+}
+
+.enlaceForm:hover{
+    color: rgb(51, 51, 184);
+    -webkit-text-stroke: 0.1px rgb(132, 150, 226);
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .boxSectionFooter{
+        height: 80px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .pieSec{
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        -webkit-text-stroke: 0px rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    .boxSectionFooter{
+
+        
+        float: none;
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 8px 8px 8px #b3b5ca9b;
+        padding-top: 5px;
+    
+    }
+    
+    .pieSec{
+        display: flex;
+        margin-left: 10px;
+        justify-content: justify;
+        font-size: 16px;
+        -webkit-text-stroke: 0.03px rgb(255, 255, 255);
+    }
+    
+    .enlaceForm{
+        margin: 0;
+        padding: 5px;
+        padding-top: 0px;
+        -webkit-text-stroke: 0.01px rgb(235, 178, 230);
+        
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .boxSectionFooter{
+        display: none !important;
+    }
+    
+}
+    
+
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .boxSectionFooter{
+        
+        display: none !important;
+    }
+    
+    
+}
+
+
+
+

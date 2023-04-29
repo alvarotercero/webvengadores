@@ -1,0 +1,438 @@
+
+/* letra importada*/
+@font-face {
+    font-family: avengers;
+    src:url(../../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+.container{
+    background-image: url(../../imagenes/FondoNoticias.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/************************************************************************************************/
+
+.boxHeader{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(124, 104, 238, 0.592);
+    margin-top: 35px;
+    border-radius: 100px 300px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+/* texto cabecera*/
+#letraHeader{
+
+    color:rgb(223, 214, 222);
+    font: 100px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+ /* centrar elemntos*/
+.centrarElementos{
+    display: flex;
+    justify-content: center; /*alineacion horizontal*/
+    align-items: center;  
+}
+
+
+/*********************************************************************************************/
+.boxArticle{
+    width: 100%;
+    height: 2300px;
+    background-color: rgba(255, 0, 128, 0.756);
+    margin-top:35px;
+    padding-top: 35px;
+}
+
+.tamañoFoto{
+
+    width: 90%;
+    height: 800px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+
+/*propiedades comunes */
+
+.estiloParrafo{
+
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    float: left;
+    margin: 35px;
+}
+
+#estiloSubtitulo{
+    color:  rgba(52, 106, 224, 0.847);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    
+}
+
+
+/************************************************************************************************/
+
+.box{
+    width: 800px;
+    height: 200px;
+    float: left;
+    margin:25px
+}
+
+.boxImage{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+}
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+/************************************************************************************************/
+
+#estiloTitulo{
+    color:  rgba(27, 70, 164, 0.803);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    -webkit-text-stroke: 0.1px whitesmoke;
+   
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    body{
+        width: auto;
+    } 
+    
+    .container{
+        background-image: none;
+        background-color: rgb(135, 176, 230);
+    }
+    /************************************************************************************************/
+    /* CABECERA */
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+
+    /************************************************************************************************/
+    
+    .boxArticle{
+        width: 100%;
+        height: 1550px;
+        margin-top:15px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+    }
+    
+    /***********************************************************************************************/
+    /* 1 */
+    
+    .tamañoFoto{
+        width: 300px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    .box{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        
+    
+    }
+    
+    .boxImage{
+    
+        width: 500px;
+        height: 150px;
+        margin-left: 70px;
+        float: none;
+    
+    }
+    
+    
+    .estiloParrafo{
+
+        font-size: 15px;
+        float: none;
+        margin: 10px;
+    }
+
+    #estiloSubtitulo{
+        font-size: 23px;
+    
+    }
+
+
+/************************************************************************************************/
+
+.box{
+    width: 350px;
+    height: auto;
+    float: none;
+    margin-top: 0px;
+}
+
+.boxImage{
+    width: 300px;
+    height: auto;
+    float: none;
+    margin-left: 10px;
+}
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 5px #b3b5caa6;
+}
+
+/************************************************************************************************/
+
+#estiloTitulo{
+    font-size: 25px;
+}
+    
+    
+}
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    body{
+        width: auto;
+    } 
+    
+    /************************************************************************************************/
+    /* CABECERA */
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+
+    /************************************************************************************************/
+    
+    .boxArticle{
+        width: 100%;
+        height: 1280px;
+        margin-top:15px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+    }
+    
+    /***********************************************************************************************/
+    /* 1 */
+    
+    .tamañoFoto{
+        width: 300px;
+        height: 200px; 
+        border-radius: 75px; 
+        margin-top: 10px;
+        margin-left: 190px;
+    }
+    
+    .box{
+    
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+        float: none;
+        
+    
+    }
+    
+    .boxImage{
+    
+        width: 500px;
+        height: 150px;
+        margin-left: 70px;
+        float: none;
+        padding-left: 120px;
+    
+    }
+    
+    
+    .estiloParrafo{
+
+        font-size: 15px;
+        float: none;
+        margin: 10px;
+    }
+
+    #estiloSubtitulo{
+        font-size: 23px;
+    
+    }
+
+
+/************************************************************************************************/
+
+.box{
+    width: 650px;
+    height: auto;
+    float: none;
+    margin-top: 0px;
+    margin-right:  0;
+    margin-left: 0px;
+}
+
+.boxImage{
+    width: 300px;
+    height: auto;
+    float: none;
+    margin-left: 0px;
+    
+}
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 5px #b3b5caa6;
+}
+
+/************************************************************************************************/
+
+#estiloTitulo{
+    font-size: 25px;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+
+    body{
+        width: auto;
+        margin: 15px;
+    } 
+
+
+    .tamañoFoto{
+
+        width: 90%;
+        height: 500px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .boxImage{
+      
+        display:none;
+    }
+
+    .box{
+        width: 720px;
+        height: 100px;
+        float: left;
+        margin:5px
+    }
+    
+    .estiloParrafo{
+
+        font-size: 15px;
+        color: aliceblue;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+        float: left;
+        margin: 25px;
+    }
+    
+    #estiloSubtitulo{
+        color:  rgba(52, 106, 224, 0.847);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20spx;
+        
+    }
+
+    .boxArticle{
+        width: 100%;
+        height: 1750px;
+        background-color: rgba(255, 0, 128, 0.756);
+        margin-top:35px;
+        padding-top: 35px;
+    }
+
+}  
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+    body{
+        width: auto;
+        margin: 15px;
+    } 
+    
+    .boxImage{
+        width: 100px;
+        height: 50px;
+        float: left;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .box{
+        width: 500px;
+        height: 200px;
+        float: right;
+        margin: 15px
+    }
+    
+    .boxArticle{
+        width: 100%;
+        height: 2450px;
+        background-color: rgba(255, 0, 128, 0.756);
+        margin-top:35px;
+        padding-top: 35px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

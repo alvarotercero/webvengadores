@@ -1,0 +1,302 @@
+/* letra importada*/
+@font-face {
+    font-family: avengers;
+    src:url(../../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+.container{
+    background-image: url(../../imagenes/FondoNoticias.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*****************************************************************************/
+.boxHeader{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(124, 104, 238, 0.592);
+    margin-top: 35px;
+    border-radius: 100px 300px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
+
+/* texto cabecera*/
+#letraHeader{
+
+    color:rgb(223, 214, 222);
+    font: 100px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+ /* centrar elemntos*/
+.centrarElementos{
+    display: flex;
+    justify-content: center; /*alineacion horizontal*/
+    align-items: center;
+
+}
+/*****************************************************************************/
+.boxArticle{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255, 0, 128, 0.756);
+    margin-top:35px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.borderBox{
+    border-radius: 50px 50px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*****************************************************************************/
+/* Caja video */
+
+.boxVideo{
+    margin: 35px;
+    float: left;
+}
+/*****************************************************************************/
+/* Propiedades textos */
+
+p{
+    position: relative;
+    margin: 70px 70px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+
+
+h1{
+    position: relative;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 50px;
+    color: rgba(52, 106, 224, 0.847);
+    -webkit-text-stroke: 0.1px whitesmoke;
+}
+
+.alineacion{
+    display: flex;
+}
+
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    body{
+        width: auto;
+    } 
+    
+    .container{
+        background-image: none;
+        background-color: rgb(193, 138, 219);
+    }
+    /*****************************************************************************/
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+
+    /*****************************************************************************/
+    .boxArticle{
+        height: auto;
+        margin-top:15px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .borderBox{
+        border-radius: 50px 50px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    /*****************************************************************************/
+    /* Caja video */
+    
+    .boxVideo{
+        display: none;
+    }
+    /*****************************************************************************/
+    /* Propiedades textos */
+    
+    p{
+        margin: 15px;
+        font-size: 15px;
+    }
+    
+    
+    h1{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape){
+    body{
+        width: auto;
+    } 
+    
+    /*****************************************************************************/
+    .boxHeader{
+        
+        height: 100px;
+        margin-top: 35px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+    /* texto cabecera*/
+    #letraHeader{
+        font-size: 50px;
+    }
+    
+     /* centrar elmentos*/
+    .centrarElementos{
+        display: flex;
+        justify-content: center; /*alineacion horizontal*/
+        align-items: center;
+    
+    }
+    /*****************************************************************************/
+    .boxArticle{
+        width: 100%;
+        height: auto;
+        margin-top:35px;
+    
+    }
+    
+    .borderBox{
+   
+        box-shadow: 5px 5px 5px #b3b5caa6;
+    }
+    
+    
+    /*****************************************************************************/
+    /* Caja video */
+    
+    .boxVideo{
+        margin: 25px;
+        float: none;
+        padding-left: 25px;
+    }
+    /*****************************************************************************/
+    /* Propiedades textos */
+    
+    p{
+        margin: 50px 50px;
+        font-size: 17px;
+    }
+    
+    
+    h1{
+    
+        font-size: 25px;
+        margin-right: 0px;
+ 
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body{
+        width: auto;
+        margin: 15px;
+    } 
+
+
+    .boxHeader{
+        width: 100%;
+        height: 250px;
+        background-color: rgba(124, 104, 238, 0.592);
+        margin-top: 35px;
+        border-radius: 100px 300px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+    }
+
+    .boxVideo{
+        display:none;
+    }
+
+    p{
+        position: relative;
+        margin: 70px 70px;
+        font-size: 15px;
+        color: aliceblue;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+    }
+
+    .boxArticle{
+        width: 100%;
+        height: 900px;
+        background-color: rgba(255, 0, 128, 0.756);
+        margin-top:35px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+    h1{
+        position: relative;
+        font-size: 25px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 50px;
+        color: rgba(52, 106, 224, 0.847);
+        -webkit-text-stroke: 0.1px whitesmoke;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   
+
+    body{
+        width: auto;
+        margin: 15px;
+    } 
+
+    .boxArticle{
+        width: 100%;
+        height: 1200px;
+        background-color: rgba(255, 0, 128, 0.756);
+        margin-top:35px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazte Vengador</title>
+    <link rel="icon" href="../imagenes/a_avengers.png"/>
+    <link rel="stylesheet" href="../css/haztevengador.css"/>
+    <link rel="stylesheet" href="../css/navmenu.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+</head>
+
+<body class="containerFondo">
+    <!-- cabecera -->
+    <header>
+        <div class="boxHeader borderBox">
+            <h1 id="textoCabecera">Los Vengadores Fans</h1>
+        </div>
+    </header>
+
+    <nav class="main-menu borderBox"> <!--Seccion navegacion --> 
+
+        <!--Lista desordenada--> 
+            <ul>
+                <li><a class="border" href="../index.html">Home</a></li>
+                <li><a class="border" href="../html/quienessomos.html">Quienes Somos</a></li>
+    
+                <li><a class="border" href="../html/haztevengador.html">Hazte Vengador</a></li>
+        
+                <li><a class="border">Peliculas</a>
+                    <!-- Menu desplegable-->
+                    <ul class="boxodificacion">    
+                        <li><a href="../html/peliculas/losvengadores.html">Los Vengadores</a></li>
+                        <li><a href="../html/peliculas/ironman.html">Iron Man</a></li>
+                        <li><a href="../html/peliculas/capitanamerica.html">Capitan America</a></li>
+                        <li><a href="../html/peliculas/thor.html">Thor</a></li>
+                        <li><a href="../html/peliculas/spiderman.html">Spiderman</a></li>
+                        <li><a href="../html/peliculas/wakanda.html">Black Panther</a></li>
+                        <li><a href="../html/peliculas/guardianes.html">Guardianes de la Galaxia</a></li>
+                    </ul>
+                </li>
+        
+                <li><a class="border" href="../html/noticias.html">Noticias</a></li>
+        
+                <li><a href="../html/personajes.html">Personajes</a></li>
+
+            </ul>
+    
+    </nav>
+
+    <div class="boxTitulo boxBorder">
+        <div class="margenesTitulo">
+            <p class="letraTituloPrincipal">Hazte Vengador</p>
+        </div>
+    </div>
+
+    <div class="Box boxBorder">
+        <p class="letraTexto">¡Bienvenido/a a la comunidad de fans de Los Vengadores! 
+            Si deseas unirte a nosotros y recibir actualizaciones exclusivas sobre nuestros superhéroes favoritos y 
+            tener acceso a contenido único, por favor completa el siguiente formulario.
+         </p>
+     </div>
+
+    <div class="boxFormulario boxBorder">
+    </br>
+      
+        <form class="letraTexto" action="vengadores.jsp"; method="post" name="formulario">
+
+            <fieldset><!--cuadro que rodea el formulario, si queremos ponerle nombre, le podemos poner con la etiqueta <legend> -->
+                <legend >FORMULARIO DE VENGADOR</legend>
+            
+                <br/>
+                <label for="usuario">Usuario:</label>
+                <input id="usuario" type="text" name="usuario" autofocus required> <span>*</span>
+                <br/>
+                <br/>
+                <label for="pass">Contraseña:</label>
+                <input id="pass" type="password" name="pass" required> <span>*</span><!--usamos el type="password" para que no se vea la contraseña-->
+                <br/>
+                <br/>
+                <label for="nombre">Nombre:</label>
+                    <!-- Dentro de la etiqueta <label> tenemos el atributo "for" si pulsamos en nombre dado a la etiqueta <label> se nos pincha la caja, para que podamos
+                         escribir, el valor del atributo "for" se iguala al valor del atributo "id" del elemento del formulario.-->
+                
+                <input id="nombre" type="text" name="nombre" required> <span>*</span>
+                <br/>
+                <br/>
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" name="apellidos"> <!-- name, el valor con el que se va a mandar al servidor-->
+                <br/>
+                <br/>
+                <label for="telefono">Teléfono:</label>
+                <input id="telefono" type="tel" name="telefono">
+                <br/>
+                <br/>
+                <label for="fechanacimiento">Fecha de nacimiento:</label>
+                <input id="fechanacimiento" type="date" name="fechanacimiento" required> <span>*</span>
+                <br/>
+                <br/>
+                <span>*</span> Campos obligatorios
+                <br/>
+                <br/>
+                ¿Cuál es tu vengador favorito?
+                <br/>
+                <label for="vengador"></label>
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="1">Iron Man
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="2">Capitán Ámerica
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="3">Thor
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="4">Hulk
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="5">Doctor Strange
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="6">Viuda Negra
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="7">Black Panther
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="8">Visión
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="9">Petter Quill
+                <br/>
+                <input id="vengador" type="radio" name="vengador" value="10">Spider Man
+                <br/>
+                    
+                <!-- Con el atributo type="radio", solo se prodrá seleccionar uno de los valores preestablecidos, el valor enviado y que el programa recogerá
+                     será el que ponga en value.
+    
+                     Con el atributo "Checked" podemos dejar uno por defecto
+                    
+                     <input type="checkbox">, similar al type="radio", pero esta vez permite selecionar varias opciones.
+                
+                -->
+    
+                <br/>
+                <br/>
+                ¿Qué información te gustaría recibir?
+                <br/>
+                <label for="informacion"></label>
+                <br/>
+                <input id="informacion" type="checkbox" nombre="informacion" value="A">Merchandising 
+                <br/>
+                <input id="informacion" type="checkbox" nombre="informacion" value="B">Peliculas
+                <br/>
+                <input id="informacion" type="checkbox" nombre="informacion" value="C">Noticias
+                <br/>
+                <input id="informacion" type="checkbox" nombre="informacion" value="D">Encuentros de la Comunidad
+                <br/>
+                <input id="informacion" type="checkbox" nombre="informacion" value="E">Novedades Página Web
+    
+    
+                <!-- La etiqueta <select> representa una lista desplegable de opciones definidas por medio de etiquetas <option>. por medio
+                     del atributo value, mandaremos al servidor la opcion seleccionada, si queremos que nos paarezca uno por defecto 
+                     utilizaremos el atributo "selected"-->
+                <br/>
+                <br/>
+                <br/>
+                ¿A qué Comunidad Vengadora quieres pertenecer?
+                <br/>
+                <label for="continente"></label>
+                <br/>
+                <select id="continente" name="continente">
+                    <option value="1">Europa</option>
+                    <option value="2">América</option>
+                    <option value="3">África</option>
+                    <option value="4">Asia</option>
+                    <option value="5">Oceanía</option>
+                </select>
+                <br/>
+                <br/>
+                <br/>
+                ¡Suscríbete a nuestra newsletter semanal!
+                <br/>
+                <br/>
+                <label for="new">Correo electrónico</label>
+                <input id="email" name="new" type="email" placeholder="Escriba su email">
+                <br/>
+                <br/>
+                <br/>
+                Vengador, ¡ayúdanos a mejorar la comunidad!
+                <br/>
+                <!-- Caja de texto multinea, utilizaremos la etiqueta <textarea>, contiene los siguientes atributos:
+                    
+                        - rows: número visible de filas del campo.
+                        - cols: ancho del campo.
+                        - readonly: solo lectura (este tambien se puede encontrar en los text y en otros)-->
+    
+                <label for="obser"></label>
+                <br/>
+                <br/>
+                <textarea id="obser" name="obser" placeholder="Sugerencias" style="resize: none;" rows="8" cols="80"></textarea>
+                
+                <!-- Botones, para enviar el formulario, a través del atributo type="submit", se representa como un boton, y cuando el usuario 
+                     hace click en el, se realiza la peticion HTTP al programa del servidor especificado en el atributo action-->
+    
+                <br/>
+                <br/>
+                <label>Enviar formulario:</label>
+                <input id="boton" type="submit" value="Enviar Datos">
+    
+                <!-- atraves del atributo type="reset", se representa con un botón y cuando el usuario hace click en el, se deja el formulario 
+                     en su estado inicial normalmente, vacío.-->
+    
+                <input id="botonR" type="reset" value="Limpiar Formulario">
+                <br/>
+                <br/>
+    </div>
+
+    <footer class="boxFooter borderBox">
+        <div>
+            <p class="piePag">¡Síguenos en nuestras redes sociales!</p>
+            <div class="redes">
+                <a class="iconRedes" href="https://www.instagram.com/" target="_blank"><img src="../imagenes/instagram.png" alt="Instagram" title="Instagram"></a>
+                <a class="iconRedes" href="https://es-es.facebook.com/" target="_blank"><img src="../imagenes/facebook.png" alt="Facebook" title="Facebook"></a>
+                <a class="iconRedes" href="https://twitter.com/?lang=es" target="_blank"><img src="../imagenes/twitter.png" alt="Twitter" title="Twitter"></a>
+                <a class="iconRedes" href="https://www.reddit.com/" target="_blank"><img src="../imagenes/reddit.png" alt="Reddit" title="Reddit"></a>
+                <a class="iconRedes" href="https://www.pinterest.es/" target="_blank"><img src="../imagenes/pinterest.png" alt="Pinterest" title="Pinterest"></a>
+             </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    
+</body>
+</html>

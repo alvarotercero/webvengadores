@@ -1,0 +1,286 @@
+@font-face {
+    font-family: avengers;
+    src: url(../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
+    font-style: normal;
+}
+
+.boxArticle{
+
+    background-color:   rgba(187, 132, 70, 0.264);
+    float: left;
+    width: 92%;
+    height: 900px;
+    margin-left: 35px;
+    margin-top: 35px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+
+}
+
+
+.boxArticle1{
+
+    background-color: rgba(102, 15, 132, 0.415);
+    float: left;
+    width: 45%;
+    height: 325px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-bottom: 15px;
+
+}
+
+/*****************************************************************************************/
+/*letra articulos*/ 
+
+#letra{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+.boxDiv{
+    width: 90%;
+    height: 150px;
+    margin: 15px;
+}
+
+/* titulo */
+
+#letraTitulo{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+/*****************************************************************************************/
+
+
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    .boxArticle{
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-right: 5px;
+        box-shadow: 3px 3px 3px #b3b5caa6;
+        height: 320px;
+        overflow: scroll;
+    }
+
+    .boxArticle1{
+        width: 90%;
+        height: 130px;
+        margin: 15px;
+        margin-bottom: 0px;
+        box-shadow: 3px 3px 3px #b3b5caa6;
+    }
+
+    #letraTitulo{
+        font-size: 9px;
+        text-align: justify;
+        margin: 10px;
+    }
+
+    #letra{
+        font-size: 8px;
+        margin-right:10px;
+    }
+   
+    .boxDiv{
+        height: 50px;
+    }
+
+    a #letra{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-height: 700px) and (orientation: landscape){
+    .boxArticle{
+
+        float: none;
+        width: 92%;
+        height: 900px;
+        margin: 15px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        overflow: scroll;
+    
+    }
+    
+    
+    .boxArticle1{
+    
+        float: none;
+        width: 90%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 5px 5px 5px #b3b5caa6;
+        padding-bottom: 15px;
+        padding-top: 3px;
+    
+    }
+    
+    /*****************************************************************************************/
+    /*letra articulos*/ 
+    
+    #letra{
+        font-size: 10px;
+        
+    }
+    
+    .boxDiv{
+        width: 90%;
+        height: 150px;
+        margin: 15px;
+    }
+    
+    /* titulo */
+    
+    #letraTitulo{
+        font-size: 15px;
+        margin: 15px;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body{
+        margin-left: 40px;
+    }
+        
+    .boxArticle{
+    
+        background-color:   rgba(187, 132, 70, 0.264);
+        float: left;
+        width: 82%;
+        height: 1100px;
+        margin-left: 35px;
+        margin-top: 35px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+    
+    }
+    
+    
+    .boxArticle1{
+    
+        background-color: rgba(102, 15, 132, 0.415);
+        float: left;
+        width: 80%;
+        height: 190px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 10px 10px 10px #b3b5caa6;
+        padding-bottom: 15px;
+    
+    }
+    
+    
+    .boxDiv{
+        width: 100%;
+        height: 150px;
+        margin: 15px;
+    }
+    
+
+    
+    #letraTitulo{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 30px;
+        
+    }
+    
+    
+    .boxArticle .boxArticle1 .boxDiv{
+    
+        display: none !important;
+    }
+    
+    }
+    
+
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+        body{
+            margin-left: 40px;
+        }
+            
+        .boxArticle{
+        
+            background-color:   rgba(187, 132, 70, 0.264);
+            float: left;
+            width: 90%;
+            height: 1100px;
+            margin-left: 35px;
+            margin-top: 35px;
+            box-shadow: 10px 10px 10px #b3b5caa6;
+        
+        }
+        
+        
+        .boxArticle1{
+        
+            background-color: rgba(102, 15, 132, 0.415);
+            float: left;
+            width: 90%;
+            height: 190px;
+            margin-top: 40px;
+            margin-left: 25px;
+            margin-right: 20px;
+            box-shadow: 10px 10px 10px #b3b5caa6;
+            padding-bottom: 15px;
+        
+        }
+        
+        
+        .boxDiv{
+            width: 100%;
+            height: 150px;
+            margin: 355px;
+        }
+        
+    
+        #letraTitulo{
+            font-size: 14px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            
+        }
+        
+        .boxDiv{
+            width: 95%;
+            height: 100px;
+            margin: 10px;
+            float: left;
+            
+        }
+        
+        #letra{
+            font-size: 12px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+       
+    }
+    
+    
+    
+    
+

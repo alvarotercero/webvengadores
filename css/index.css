@@ -1,0 +1,49 @@
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/** Damos imagen al fondo del cuerpo con la clase container**/
+.containerFondo{
+    background-image:url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed; /**dejamos fija la imagen**/
+}
+
+
+/** Bordes cajas**/
+.borderBox{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.letraTexto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 30px;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+
+    body{
+        width: auto;
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body{
+        width: auto;
+        margin-right: 30px;
+    }
+
+}
+
