@@ -17,20 +17,23 @@ body{
     background-attachment: fixed;
 }
 /*****************************************************************************/
-.boxHeader{
+.boxHeaderArt{
     width: 100%;
-    height: 250px;
+    height: 150px;
     background-color: rgba(124, 104, 238, 0.592);
     margin-top: 35px;
+    margin-bottom: 35px;
     border-radius: 100px 300px;
     box-shadow: 10px 10px 10px #b3b5caa6;
+    float: left;
+    padding-top: 15px;
 }
 
 /* texto cabecera*/
-#letraHeader{
+#letraHeaderArt{
 
     color:rgb(223, 214, 222);
-    font: 100px bold;
+    font: 50px bold;
     font-family: avengers;
     text-align: center;
     text-transform: uppercase; 
@@ -51,7 +54,6 @@ body{
     margin-top:35px;
     float: left;
     margin-bottom: 20px;
-
 }
 
 .borderBox{
@@ -108,7 +110,7 @@ h1{
         background-color: rgb(193, 138, 219);
     }
     /*****************************************************************************/
-    .boxHeader{
+    .boxHeaderArt{
         
         height: 100px;
         margin-top: 35px;
@@ -116,7 +118,7 @@ h1{
     }
     
     /* texto cabecera*/
-    #letraHeader{
+    #letraHeaderArt{
         font-size: 50px;
     }
 
@@ -164,7 +166,7 @@ h1{
     } 
     
     /*****************************************************************************/
-    .boxHeader{
+    .boxHeaderArt{
         
         height: 100px;
         margin-top: 35px;
@@ -172,7 +174,7 @@ h1{
     }
     
     /* texto cabecera*/
-    #letraHeader{
+    #letraHeaderArt{
         font-size: 50px;
     }
     
@@ -233,7 +235,7 @@ h1{
     } 
 
 
-    .boxHeader{
+    .boxHeaderArt{
         width: 100%;
         height: 250px;
         background-color: rgba(124, 104, 238, 0.592);

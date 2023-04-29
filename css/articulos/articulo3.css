@@ -20,20 +20,22 @@ body{
 
 /************************************************************************************************/
 
-.boxHeader{
+.boxHeaderArt{
     width: 100%;
-    height: 250px;
+    height: 150px;
     background-color: rgba(124, 104, 238, 0.592);
     margin-top: 35px;
     border-radius: 100px 300px;
     box-shadow: 10px 10px 10px #b3b5caa6;
+    float: left;
+    padding-top: 15px;
 }
 
 /* texto cabecera*/
-#letraHeader{
+#letraHeaderArt{
 
     color:rgb(223, 214, 222);
-    font: 100px bold;
+    font: 50px bold;
     font-family: avengers;
     text-align: center;
     text-transform: uppercase; 
@@ -53,7 +55,8 @@ body{
     height: 2300px;
     background-color: rgba(255, 0, 128, 0.756);
     margin-top:35px;
-    padding-top: 35px;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .tamañoFoto{
@@ -128,14 +131,14 @@ body{
     }
     /************************************************************************************************/
     /* CABECERA */
-    .boxHeader{
+    .boxHeaderArt{
         
         height: 100px;
         margin-top: 35px;
         box-shadow: 5px 5px 5px #b3b5caa6;
     }
     /* texto cabecera*/
-    #letraHeader{
+    #letraHeaderArt{
         font-size: 50px;
     }
 
@@ -231,14 +234,14 @@ body{
     
     /************************************************************************************************/
     /* CABECERA */
-    .boxHeader{
+    .boxHeaderArt{
         
         height: 100px;
         margin-top: 35px;
         box-shadow: 5px 5px 5px #b3b5caa6;
     }
     /* texto cabecera*/
-    #letraHeader{
+    #letraHeaderArt{
         font-size: 50px;
     }
 
