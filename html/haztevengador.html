@@ -68,7 +68,7 @@
       
         <form class="letraTexto" action="vengadores.jsp"; method="post" name="formulario">
 
-            <fieldset><!--cuadro que rodea el formulario, si queremos ponerle nombre, le podemos poner con la etiqueta <legend> -->
+            <fieldset><!-- Cuadro que rodea el formulario. Para darle nombre, usamos la etiqueta <legend> -->
                 <legend >FORMULARIO DE VENGADOR</legend>
             
                 <br/>
@@ -97,6 +97,14 @@
                 <br/>
                 <label for="fechanacimiento">Fecha de nacimiento:</label>
                 <input id="fechanacimiento" type="date" name="fechanacimiento" required> <span>*</span>
+                <br/>
+                <br/>
+                <label for="hermanos">Número de hermanos:</label>
+                <input id="hermanos" type="number" min="0" max="20" name="hermanos">
+                <br/>
+                <br/>
+                <label for="web">Página web favorita:</label>
+                <input id="web" type="url" name="web" placeholder="Escriba una URL">
                 <br/>
                 <br/>
                 <span>*</span> Campos obligatorios
@@ -151,6 +159,8 @@
                 <input id="informacion" type="checkbox" nombre="informacion" value="D">Encuentros de la Comunidad
                 <br/>
                 <input id="informacion" type="checkbox" nombre="informacion" value="E">Novedades Página Web
+                <br/>
+                <input disabled title="¡No podemos contarte esa información!" id="informacion" type="checkbox" nombre="informacion" value="F">Conocer los planes secretos de Thanos
     
     
                 <!-- La etiqueta <select> representa una lista desplegable de opciones definidas por medio de etiquetas <option>. por medio
@@ -176,9 +186,15 @@
                 ¡Suscríbete a nuestra newsletter semanal!
                 <br/>
                 <br/>
-                <label for="new">Correo electrónico</label>
-                <input id="email" name="new" type="email" placeholder="Escriba su email">
+                <label for="email">Correo electrónico</label>
+                <input id="email" name="email" type="email" placeholder="Escriba su email">
                 <br/>
+                <br/>
+                ¿Qué color te gustaría que tuviese esta página web?
+                <br/>
+                <br/>
+                <label for="colorfav"></label>
+                <input id="colorfav" type="color" name="colorfav">
                 <br/>
                 <br/>
                 Vengador, ¡ayúdanos a mejorar la comunidad!
