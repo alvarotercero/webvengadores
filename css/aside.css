@@ -322,13 +322,13 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1299px) and (orientation: landscape) {
     .boxAside{
 
         background-color: rgba(45, 13, 20, 0.445);
         background-position:  left 35%  bottom 45% ;
         float: left;
-        width: 60%;
+        width: 50%;
         height: 1425px;
         margin-left: 25px;
         margin-top: 40px;
@@ -382,20 +382,3 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

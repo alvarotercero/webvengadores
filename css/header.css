@@ -112,7 +112,7 @@
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px)  and (orientation: landscape) { 
+@media only screen and (min-width: 768px) and (max-width: 1299px)  and (orientation: landscape) { 
 
     .boxHeader{
 
@@ -136,12 +136,12 @@
 
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1299px) and (orientation: landscape){ 
+
 
     .boxHeader{
 
         background-color: rgba(45, 13, 20, 0.779);
-        width: 100%;
+        width: 95%;
         height: 100px;
         padding: 25px;
         margin-top: 30px;
@@ -164,7 +164,7 @@
 
 
 
-}
+
 
 
 

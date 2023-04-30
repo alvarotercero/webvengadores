@@ -334,14 +334,87 @@ ul{
         
 }
     
+@media only screen and (min-width: 1025px) and (max-width: 1299px) and (orientation: landscape){ 
+
+    .main-menu{
+        background-color: rgba(92, 159, 227, 0.779);
+        display:block;
+        width: 100%;
+        box-shadow: 10px 10px 10px #b3b5ca9b;
+        z-index: 2;
+        position: relative;
+        padding-top: 16px;
+        padding-bottom: 17px;
+    
+    }
+    
+    
+    .main-menu > ul >li > ul > li > a{
+    
+        display:block;
+        color:black;
+        background-color: rgba(137, 175, 214, 0.779);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 15px;
+        border-top: solid 1px white;
+        width: 50px;
+        box-shadow: 10px 10px 10px #b3b5ca9b; 
+    }
+    
+    .main-menu >ul> li:hover > ul {
+        display: block;
+        box-shadow: none; 
+    }
+
+    a{
+        text-decoration: none;
+        padding: 36px !important; 
+        font-size: 15px;
+        font-weight: bold;
+        font-family: avengers;
+        color: black;
+        transition: all 0.4S;
+        height: 25px !important;
+
+    }
+    
+    .box4{
+      
+        width: 95%;
+        height: auto;
+        float: none;
+        margin:  0px;
+        margin-left: 15px;
+        
+    }
+    
+    .main-menu > ul >li > a{
+
+        width: 38%;
+        color:black;
+        padding: 20px 60px;
+        border-right: solid 1px white;
+    }
+    
+
+    .boxModificacion{
+        width: 15.50%;
+    }
+    
+    .border{
+        
+        height: 15px;
+        border-right: solid 1px white;
+        
+    }
+    
+}
     
     
     
     
-    
-    
-    
-    
+
     
     
     

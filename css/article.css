@@ -282,6 +282,69 @@
     }
     
     
-    
-    
+    @media only screen and (min-width: 1025px) and (max-width: 1299px) and (orientation: landscape){ 
 
+        body{
+            margin-left: 35px;
+        }
+            
+        .boxArticle{
+        
+            background-color:   rgba(187, 132, 70, 0.264);
+            float: left;
+            width: 90%;
+            height: 1120px;
+            margin-left: 35px;
+            margin-top: 35px;
+            box-shadow: 10px 10px 10px #b3b5caa6;
+        
+        }
+        
+        
+        .boxArticle1{
+        
+            background-color: rgba(102, 15, 132, 0.415);
+            float: left;
+            width: 90%;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 25px;
+            margin-right: 20px;
+            box-shadow: 10px 10px 10px #b3b5caa6;
+            padding-bottom: 15px;
+        
+        }
+        
+        
+        .boxDiv{
+            width: 100%;
+            height: 150px;
+            margin: 355px;
+        }
+        
+    
+        #letraTitulo{
+            font-size: 16px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            
+        }
+        
+        .boxDiv{
+            width: 95%;
+            height: 100px;
+            margin: 10px;
+            float: left;
+            
+        }
+        
+        #letra{
+            font-size: 12px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        
+    }
+    

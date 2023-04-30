@@ -47,3 +47,11 @@ body{
 
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1299px)  and (orientation: landscape) {
+
+    body{
+        width: auto;
+        margin-right: 30px;
+    }
+
+}
