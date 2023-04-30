@@ -270,9 +270,7 @@ p{
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-
-   
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
     body{
         
         width: auto;
@@ -327,12 +325,12 @@ p{
     }
 
     p{
-        height: 40px;
+        height: 85px;
     }
 
     h3{
         width: 500px;
-        margin-left: 35px;
+        margin-left: 60px;
     }
 
 

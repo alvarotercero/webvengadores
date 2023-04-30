@@ -381,7 +381,7 @@ body{
     }
 
 
-    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    @media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
 
         body{
             width: auto;
@@ -395,13 +395,13 @@ body{
             height: 300px;
             margin-left: 45px;
             float: left;
-            margin: 150px 35px 25px 55px;
+            margin: 150px 35px 25px 35px;
             
         }
     
         .box{
       
-            width: 650px;
+            width: 90%;
             height: 100px;
             float: left;
             margin: 35px;
@@ -411,7 +411,7 @@ body{
         
         .box3{
         
-            width: 650px;
+            width: 90%;
             height: 100px;
             float: left;
             margin: 35px;   
@@ -424,13 +424,13 @@ body{
             height: 200px;
     
             float: left;
-            margin: 35px 35px 35px 55px;
+            margin: 35px 35px 35px 35px;
             
         }
     
         .box2{
       
-            width: 90%;
+            width: 88%;
             height: 200px;
             margin-left: 45px;
             float: left;
@@ -444,8 +444,36 @@ body{
             height: 1800px;
             background-color:rgba(255, 0, 128, 0.756);
             margin-top:35px;
+
         }
-    
+
+        #estiloTitulo{
+            color:  rgba(27, 70, 164, 0.803);
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+            text-align: center;
+            -webkit-text-stroke: 0.1px whitesmoke;
+           
+        }
+
+        .estiloParrafo{
+
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: aliceblue;
+            
+        
+        }
+
+        .box4{
+          
+            width: 95%;
+            height: 200px;
+            float: left;
+            margin:  20px;
+            text-align: justify;
+            
+        }
     }
     
     

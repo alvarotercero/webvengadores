@@ -714,7 +714,7 @@ body{
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
 
 
     body{
@@ -728,49 +728,49 @@ body{
 
     .contenedor1{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
     }
 
     .contenedor2{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
         z-index: 1;
     }
 
     .contenedor3{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
     }
 
     .contenedor4{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
     }
     
     .contenedor5{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
     }
     .contenedor6{
    
-        width: 330px;
+        width: 315px;
         height: 600px;
-        margin: 15px;
+        margin: 10px;
         float:left;
     }
 

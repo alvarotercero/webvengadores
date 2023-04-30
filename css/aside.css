@@ -260,16 +260,16 @@
     } 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
 
     .boxAside{
 
         background-color: rgba(45, 13, 20, 0.445);
         background-position:  left 35%  bottom 45% ;
         float: left;
-        width: 45%;
+        width: 48%;
         height: 1425px;
-        margin-left: 25px;
+        margin-left: 0;
         margin-top: 40px;
         box-shadow: 10px 10px 10px #b3b5caa6;
     
@@ -322,13 +322,13 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 701px) and (max-width: 1299px) and (orientation: landscape) {
     .boxAside{
 
         background-color: rgba(45, 13, 20, 0.445);
         background-position:  left 35%  bottom 45% ;
         float: left;
-        width: 37%;
+        width: 60%;
         height: 1425px;
         margin-left: 25px;
         margin-top: 40px;

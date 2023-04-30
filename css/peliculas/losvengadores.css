@@ -521,11 +521,11 @@ body{
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
 
     body{
         width: auto;
-        margin-left: 15px;
+        margin: auto;
     }
 
 .estiloParrafo{
@@ -537,7 +537,7 @@ body{
     float: left;
     margin: 10px 10px;
     text-indent: 50px; 
-    line-height: 25px;  
+    line-height: 23px;  
     letter-spacing: 1px; 
 }
     
@@ -567,7 +567,7 @@ body{
 
     float: left;
     background-color:#62a4daae;
-    width: 42%;
+    width: 44%;
     height: 500px;
     margin-top: 35px;
     
@@ -578,7 +578,7 @@ body{
 
     float: left;
     background-color:#62a4daae;
-    width: 42%;
+    width: 44%;
     height: 370px;
     margin-top: 35px;
 
@@ -589,7 +589,7 @@ body{
 
     float: left;
     background-color:#62a4daae;
-    width: 42%;
+    width: 44%;
     height: 370px;
     margin-top: 35px;
 
@@ -599,7 +599,7 @@ body{
 
     float: left;
     background-color:#62a4daae;
-    width: 42%;
+    width: 44%;
     height: 370px;
     margin-top: 35px;
 

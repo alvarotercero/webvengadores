@@ -424,7 +424,7 @@ body{
 }
 
 
-@media only screen and (min-width: 768px ) and (max-width:1024px) and (orientation: portrait) {
+@media only screen and (min-height: 701px ) and (max-width:1299px) and (orientation: portrait) {
 
     body{
         width: auto;
@@ -481,6 +481,18 @@ body{
         margin: 0px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .estiloParrafo{
+
+        font-size: 20px;
+        color: aliceblue;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: justify;
+        float: left;
+        margin: 10px 10px;
+        text-indent: 50px; /*sangria*/
+        line-height: 25px;  /*separacion lineas*/
+        letter-spacing: 1px; /*separacion entre letras*/
     }
     
 

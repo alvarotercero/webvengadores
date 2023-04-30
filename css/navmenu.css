@@ -203,15 +203,16 @@ ul{
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
 
     .main-menu{
         background-color: rgba(92, 159, 227, 0.779);
         display:block;
-        width: 98.50%;
+        width: 100%;
         box-shadow: 10px 10px 10px #b3b5ca9b;
         z-index: 2;
         position: relative;
+        margin-left: 0;
     
     }
     
@@ -256,7 +257,7 @@ ul{
 }
     
  
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: landscape) {
     
         .main-menu{
             background-color: rgba(92, 159, 227, 0.779);
@@ -298,6 +299,17 @@ ul{
             color: black;
             transition: all 0.4S;
             height: 25px !important;
+
+        }
+        
+        .box4{
+          
+            width: 95%;
+            height: auto;
+            float: none;
+            margin:  0px;
+            margin-left: 15px;
+            
         }
         
         .main-menu > ul >li > a{
