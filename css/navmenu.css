@@ -203,7 +203,7 @@ ul{
 }
 
 
-@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     .main-menu{
         background-color: rgba(92, 159, 227, 0.779);
@@ -257,7 +257,7 @@ ul{
 }
     
  
-@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px)  and (orientation: landscape) {
     
         .main-menu{
             background-color: rgba(92, 159, 227, 0.779);

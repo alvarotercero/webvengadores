@@ -333,7 +333,7 @@ body{
 }
 
 
-@media only screen and (min-height: 701px) and (max-width: 1299px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 
     body{
@@ -356,7 +356,7 @@ body{
     }
 
     .box{
-        width: 665px;
+        width: 730px;
         height: 100px;
         float: left;
         margin:5px
@@ -390,7 +390,7 @@ body{
 }  
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
+    q
 
     body{
         width: auto;
