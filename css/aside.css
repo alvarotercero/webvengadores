@@ -337,7 +337,6 @@
     }
 
     .contenedor1{
-   
         width: 300px;
         height: 475px;
         margin-left: 30px;
@@ -346,15 +345,19 @@
     }
 
     .contenedor2{
-
-        width: 30px;
-        height: 200x;
+        width: 300px;
+        height: 80px;
         margin-left: 30px;
         margin-top: 40px;
-        float:left;
+        float: left;
         background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.785));
         padding: 15px 0px;
-    
+    }
+
+    #texto{
+        margin-top: 25px;
+        font-size: 25px;
+        word-spacing: 10px;
     }
 
     #texto2{
@@ -362,7 +365,7 @@
         margin-top: 25px;
         margin-left: 35px;
         text-align: center;
-        font-size: 15px;
+        font-size: 25px;
         font-family: avengers;
         color:white;
         word-spacing: 13px;
@@ -373,10 +376,10 @@
     .contenedor{
 
         width: 300px;
-        height: 200x;
+        height: 140px;
         margin-left: 30px;
         margin-top: 40px;
-        float:left;  
+        float: left;  
         background: linear-gradient( rgba(20, 51, 135, 0.704), rgba(89, 20, 135, 0.704));
     
     }
