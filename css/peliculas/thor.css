@@ -1,4 +1,3 @@
-
 /* letra importada */
 
 @font-face {
@@ -6,7 +5,6 @@
     src:url(../../fuentes/AVENGEANCE\ HEROIC\ AVENGER.ttf); /**carpeta donde se ubica la letra**/
     font-style: normal;
 }
-
 
 
 /* Fondo de la página*/
@@ -25,19 +23,19 @@ body{
     background-attachment: fixed; /* dejamos fija la imgen*/
 }
 
-/***********************************************************************************************/
-/*Cajas*/
+/********************************************************************************************************/
+/* caja */
 .box{
-    background-color: rgba(100, 148, 237, 0.466);
+    background-color:rgba(100, 148, 237, 0.466);
     width: 100%;
-    height: 100px;
+    height: 150px;
     margin-bottom: 30px;
     margin-top: 35px;
     float: left;
 }
 
-/* texto cabecera*/
-#letraTitulor{
+/* texto pelicula*/
+#letraTitulo{
 
     color:rgb(223, 214, 222);
     font: 50px bold;
@@ -45,7 +43,7 @@ body{
     text-align: center;
     text-transform: uppercase; 
     word-spacing: 55px; /*separacion entre palabras*/
-    margin-top: 35px;
+    margin-top: 30px;
     -webkit-text-stroke: 0.9px rgb(176, 21, 21);
 }
 
@@ -59,18 +57,18 @@ body{
 /**************** VIDEO 1 ******************************************************************/
 .boxVideo1{
     float: left;
-    background-color: rgba(0, 139, 139, 0.59);
+    background-color:rgba(0, 139, 139, 0.59);
     width: 50%;
-    height: 370px;
+    height: 500px;
     margin: 40px;
 }
 
 .descriptionVideo1{
 
     float: left;
-    background-color: rgb(115, 181, 207);
+    background-color:rgb(115, 181, 207);
     width: 40%;
-    height: 370px;
+    height: 500px;
     margin-top: 35px;
 
 }
@@ -80,7 +78,7 @@ body{
 
 .boxVideo2{
     float: left;
-    background-color: rgba(0, 139, 139, 0.59);
+    background-color:rgba(0, 139, 139, 0.59);
     width: 50%;
     height: 370px;
     margin: 40px;
@@ -90,7 +88,7 @@ body{
 .descriptionVideo2{
 
     float: left;
-    background-color: rgb(115, 181, 207);
+    background-color:rgb(115, 181, 207);
     width: 40%;
     height: 370px;
     margin-top: 35px;
@@ -102,7 +100,7 @@ body{
 
 .boxVideo3{
     float: left;
-    background-color: rgba(0, 139, 139, 0.59);
+    background-color:rgba(0, 139, 139, 0.59);
     width: 50%;
     height: 370px;
     margin: 40px;
@@ -112,7 +110,7 @@ body{
 .descriptionVideo3{
 
     float: left;
-    background-color: rgb(115, 181, 207);
+    background-color:rgb(115, 181, 207);
     width: 40%;
     height: 370px;
     margin-top: 35px;
@@ -124,7 +122,7 @@ body{
 
 .boxVideo4{
     float: left;
-    background-color: rgba(0, 139, 139, 0.59);
+    background-color:rgba(0, 139, 139, 0.59);
     width: 50%;
     height: 370px;
     margin: 40px;
@@ -134,13 +132,12 @@ body{
 .descriptionVideo4{
 
     float: left;
-    background-color: rgb(115, 181, 207);
+    background-color:rgb(115, 181, 207);
     width: 40%;
     height: 370px;
     margin-top: 35px;
 
 }
-
 
 /** propiedades conjuntas **/
 
@@ -181,7 +178,7 @@ body{
 #letraPeliculas{
 
     color:rgb(223, 214, 222);
-    font: 40px bold;
+    font: 30px bold;
     font-family: avengers;
     text-align: center;
     text-transform: uppercase; 
@@ -193,30 +190,25 @@ body{
 @media screen and (min-width: 1300px) {
     .boxVideo1{
         float: left;
-        background-color: rgba(0, 139, 139, 0.59);
         width: 52%;
-        height: 370px;
+        height: 500px;
         margin: 0px;
     }
     .descriptionVideo1{
         float: right;
-        background-color: rgb(115, 181, 207);
         width: 44%;
-        height: 370px;
+        height: 500px;
         margin: 0px;
     }
     .boxVideo2{
         float: left;
-        background-color: rgba(0, 139, 139, 0.59);
         width: 52%;
         height: 370px;
         margin: 0px;
         margin-top: 30px;
     }
-    
     .descriptionVideo2{
         float: right;
-        background-color: rgb(115, 181, 207);
         width: 44%;
         height: 370px;
         margin: 0px;
@@ -224,7 +216,6 @@ body{
     }
     .boxVideo3{
         float: left;
-        background-color: rgba(0, 139, 139, 0.59);
         width: 52%;
         height: 370px;
         margin: 0px;
@@ -232,7 +223,6 @@ body{
     }
     .descriptionVideo3{
         float: right;
-        background-color: rgb(115, 181, 207);
         width: 44%;
         height: 370px;
         margin: 0px;
@@ -240,7 +230,6 @@ body{
     }
     .boxVideo4{
         float: left;
-        background-color: rgba(0, 139, 139, 0.59);
         width: 52%;
         height: 370px;
         margin: 0px;
@@ -249,7 +238,6 @@ body{
     }
     .descriptionVideo4{
         float: right;
-        background-color: rgb(115, 181, 207);
         width: 44%;
         height: 370px;
         margin: 0px;
@@ -271,7 +259,7 @@ body{
     .box{
 
         width: 100%;
-        height: 50px;
+        height: 20px;
         margin-bottom: 10px;
         margin-top: 15px;
         float: left;
@@ -380,107 +368,144 @@ body{
     }
 }
 
-@media screen and (max-height: 700px) and (orientation: landscape){
+@media screen and (max-width: 700px) and (orientation: landscape){
+    /* Contenedeor del fondo de pantalla */
     
-    /* texto cabecera*/
-    #letraTitulo{
-    
-        font-size: 40px;
-        word-spacing: 25px; /*separacion entre palabras*/
-        margin-top: 15px;
+    .containerFondo{
+        width: auto;
     }
     
+    /********************************************************************************************************/
+    /* caja */
+    .box{
+
+        width: 100%;
+        height: 20px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        float: left;
+    }
+    
+    /* texto pelicula*/
+    #letraTitulo{
+        font-size: 25px;
+        word-spacing: 10px; /*separacion entre palabras*/
+        margin-top: 10px;
+        -webkit-text-stroke: 0.7px rgb(176, 21, 21);
+    }
+    
+     /* centrar elemntos*/
+    .centrarElementos{
+        display: flex;
+        justify-content: center; /*alineacion horizontal*/
+        align-items: center;  
+    }
+    
+    /**************** VIDEO 1 ******************************************************************/
+    .boxVideo1{
+        float: none;
+        width: 50%;
+        height: 350px;
+        margin: 20px;
+    }
     
     .descriptionVideo1{
     
+        width: 40%;
         float: none;
         position: absolute;
-        top: 443px;
-        left: 400px;
-        width: 37%;
-        height: 371px;
+        left: 55%;
+        top: 305px;
+        height: auto;
+        margin-top: 15px;
     
     }
     
     /*******************************************************************************************/
     /**************** VIDEO 2 ******************************************************************/
     
+    .boxVideo2{
+        float: none;
+        width: 50%;
+        height: 350px;
+        margin: 20px;
+    }
+    
     .descriptionVideo2{
     
+        width: 40%;
         float: none;
         position: absolute;
-        top: 932px;
-        left: 400px;
-        width: 37%;
-        height: 371px;
+        left: 55%;
+        top: 710px;
+        height: 355px;
+        margin-top: 15px;
     
     }
     
     /*******************************************************************************************/
     /**************** VIDEO 3 ******************************************************************/
     
-    .descriptionVideo3{
+    .boxVideo3{
+        float: none;
+        width: 50%;
+        height: 350px;
+        margin: 20px;
+        
+    }
     
+    .descriptionVideo3{
+
+        width: 40%;
         float: none;
         position: absolute;
-        top: 1423px;
-        left: 400px;
-        width: 37%;
-        height: 371px;
-    
+        left: 55%;
+        top: 1123px;
+        height: 355px;
+        margin-top: 15px;
     }
     
     /*******************************************************************************************/
     /**************** VIDEO 4 ******************************************************************/
     
-    .descriptionVideo4{
+    .boxVideo4{
+        float: none;
+        width: 50%;
+        height: 350px;
+        margin: 20px;
+    }
     
+    .descriptionVideo4{
+        width: 40%;
         float: none;
         position: absolute;
-        top: 1913px;
-        left: 400px;
-        width: 37%;
-        height: 371px;
+        left: 55%;
+        top: 1533px;
+        height: 355px;
+        margin-top: 15px;
     
     }
+
     
-    
-    /*****************************************************************************/
-    /** propiedades conjuntas **/
-    
-    .propiedadesBox{
-    
-        box-shadow: 5px 5px 5px #b3b5caa6;
-    
-    }
-    
-    /*****************************************************************************/
-    /* posicion video caja */
-    
-    .positionVideo{ /*Alineacion del elemento Flexbox*/
-        display: flex;
-        justify-content: center; /*alineacion horizontal*/
-        align-items: center; /*alineacion vertical*/
-        
-    }
     
     /*****************************************************************************/
     
     .estiloParrafo{
     
-        font-size: 17px;
+        font-size: 13px;
         margin: 10px 10px;
         text-indent: 20px; /*sangria*/
-        line-height: 15px;  /*separacion lineas*/
-        letter-spacing: 1px; /*separacion entre letras*/
+        line-height: 20px;  /*separacion lineas*/
+        letter-spacing: 0px; /*separacion entre letras*/
     }
     
     #letraPeliculas{
     
-        font-size: 23px;
+        font-size: 20px;
         word-spacing: 5px; /*separacion entre palabras*/
+        margin-top: 5px;
+        -webkit-text-stroke: 0.5px rgb(176, 21, 21);
     }
-    
 }
 
 
@@ -489,179 +514,11 @@ body{
     body{
         width: auto;
         margin: auto;
-      
     }
-
-
-    .propiedadesBox{
-
-        border-radius: 20px;
-        box-shadow: 10px 10px 10px #b3b5caa6;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-left:0;
-        
-    }
-        
-    .descriptionVideo1{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 44%;
-        height: 370px;
-        margin-top: 35px;
-
-    }
-
-    
-
-    .descriptionVideo2{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 44%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-
-
-
-    .descriptionVideo3{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 44%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-    
-
-    .descriptionVideo4{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 44%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-    
-
-    .estiloParrafo{
-
-        font-size: 15px;
-        color: aliceblue;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: justify;
-        float: left;
-        margin: 10px 10px;
-        text-indent: 50px; 
-        line-height: 20px;  
-        letter-spacing: 1px; 
-    }
-    
-    #letraPeliculas{
-    
-        color:rgb(223, 214, 222);
-        font: 20px bold;
-        font-family: avengers;
-        text-align: center;
-        text-transform: uppercase; 
-        word-spacing: 15px; /*separacion entre palabras*/
-        margin-top: 15px;
-        -webkit-text-stroke: 0.5px rgb(176, 21, 21);
-    }
-
-    footer.boxFooter{
-        
-        background-color:  rgba(45, 13, 20, 0.779);
-        width: 98%;
-        height: 200px;
-        margin-bottom: 20px;
-        box-shadow: 10px 10px 10px #b3b5caa6;
-    }
-
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-    body{
-        width: auto;
-        margin: auto;
-
-    }
-
-
-    .propiedadesBox{
-
-        border-radius: 20px;
-        box-shadow: 10px 10px 10px #b3b5caa6;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-left:0;
-        
-    }
-    
-    .descriptionVideo1{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 46%;
-        height: 370px;
-        margin-top: 35px;
-
-    }
-
-    
-
-    .descriptionVideo2{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 46%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-
-
-
-    .descriptionVideo3{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 46%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-    
-
-    .descriptionVideo4{
-
-        float: left;
-        background-color: rgb(115, 181, 207);
-        width: 46%;
-        height: 370px;
-        margin-top: 35px;
-    
-    }
-
-    .box{
-    background-color: rgba(100, 148, 237, 0.466);
-    width: 100%;
-    height: 100px;
-    margin-bottom: 30px;
-    margin-top: 35px;
-    float: left;
-}
 
 .estiloParrafo{
 
-    font-size: 18px;
+    font-size: 15px;
     color: aliceblue;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
@@ -670,6 +527,66 @@ body{
     text-indent: 50px; 
     line-height: 23px;  
     letter-spacing: 1px; 
+}
+    
+#letraPeliculas{
+    
+    color:rgb(223, 214, 222);
+    font: 20px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+    word-spacing: 15px; 
+    margin-top: 15px;
+    -webkit-text-stroke: 0.5px rgb(176, 21, 21);
+}
+
+.propiedadesBox{
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:0;
+    
+}
+
+.descriptionVideo1{
+
+    float: left;
+    width: 44%;
+    height: 500px;
+    margin-top: 35px;
+    
+}
+
+    
+.descriptionVideo2{
+
+    float: left;
+    width: 44%;
+    height: 370px;
+    margin-top: 35px;
+
+}
+   
+
+.descriptionVideo3{
+
+    float: left;
+    width: 44%;
+    height: 370px;
+    margin-top: 35px;
+
+}
+
+.descriptionVideo4{
+
+    float: left;
+    width: 44%;
+    height: 370px;
+    margin-top: 35px;
+
 }
 
 footer.boxFooter{
@@ -681,28 +598,126 @@ footer.boxFooter{
     box-shadow: 10px 10px 10px #b3b5caa6;
 }
 
+.box{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    float: left;
+}
+
 }
 
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
+    body{
+        width: auto;
+        margin: auto;
+    }
 
+.estiloParrafo{
 
+    font-size: 18px;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    float: left;
+    margin: 10px 10px;
+    text-indent: 50px; 
+    line-height: 25px;  
+    letter-spacing: 1px; 
+    }
+    
+#letraPeliculas{
+    
+    color:rgb(223, 214, 222);
+    font: 30px bold;
+    font-family: avengers;
+    text-align: center;
+    text-transform: uppercase; 
+    word-spacing: 15px; 
+    margin-top: 15px;
+    -webkit-text-stroke: 0.5px rgb(176, 21, 21);
+}
 
+.propiedadesBox{
 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:0;
+    
+}
 
+.boxVideo1{
+    float: left;
+    width: 52%;
+    height: 500px;
+    margin: 0px;
+}
+.descriptionVideo1{
+    float: right;
+    width: 44%;
+    height: 500px;
+    margin: 0px;
+}
+.boxVideo2{
+    float: left;
+    width: 52%;
+    height: 420px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.descriptionVideo2{
+    float: right;
+    width: 44%;
+    height: 420px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.boxVideo3{
+    float: left;
+    width: 52%;
+    height: 420px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.descriptionVideo3{
+    float: right;
+    width: 44%;
+    height: 420px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.boxVideo4{
+    float: left;
+    width: 52%;
+    height: 400px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.descriptionVideo4{
+    float: right;
+    width: 44%;
+    height: 400px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+footer.boxFooter{
+        
+    background-color:  rgba(45, 13, 20, 0.779);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px #b3b5caa6;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
