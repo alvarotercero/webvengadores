@@ -299,9 +299,9 @@
     #texto2{
 
         margin-top: 25px;
-        margin-left: 35px;
+        margin-left: 55px;
         text-align: center;
-        font-size: 15px;
+        font-size: 25px;
         font-family: avengers;
         color:white;
         word-spacing: 13px;
@@ -323,15 +323,16 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1299px) and (orientation: landscape) {
+    
     .boxAside{
 
         background-color: rgba(45, 13, 20, 0.445);
         background-position:  left 35%  bottom 45% ;
         float: left;
-        width: 36%;
+        width: 33.5%;
         height: 1425px;
         margin-left: 25px;
-        margin-top: 40px;
+        margin-top: 160px;
         box-shadow: 10px 10px 10px #b3b5caa6;
     
     }

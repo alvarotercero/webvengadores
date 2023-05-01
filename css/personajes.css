@@ -840,6 +840,16 @@ body{
         margin: auto;
     }
 
+    .Box{
+    background-color: rgba(32, 49, 147, 0.834);
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-top: 15px;
+    float: left;
+    }
+
     
     header .boxHeader{
 
