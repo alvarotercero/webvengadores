@@ -336,6 +336,7 @@ input:disabled{
         height: 100px;
         margin-bottom: 15px;
         margin-top: 15px;
+        margin-left: 0px;
         float: left;
         padding-bottom: 30px;
     }
@@ -347,6 +348,7 @@ input:disabled{
         height: 110px;
         margin-bottom: 15px;
         margin-top: 10px;
+        margin-left: 0px;
         padding-top: 10px;
         float: left;
     }
@@ -357,8 +359,51 @@ input:disabled{
         width: 100%;
         margin-top: 15px;
         margin-bottom: 30px;
+        margin-left: 0px;
         padding-bottom: 10px;
         float: left;
+    }
+
+    #pass , #usuario , #nombre ,  #apellidos , #telefono , #fechanacimiento, #email, #hermanos, #web{
+        width: 205px;
+        height: 16px;
+        position: absolute;
+        left: 130px;
+        font-size: 10px;
+        margin-left: 130px;
+    }
+
+    #boton{
+        width: 70px;
+        font-size: 8px;
+        position: absolute;
+        margin-left: 80px;
+    }
+
+    #botonR{
+        width: 90px;
+        font-size: 8px; 
+        position: absolute;
+        margin-left: 70px;
+    }
+
+    .letraTituloPrincipal{
+        color:rgb(255, 255, 255);
+        font: 45px bold;
+        font-family: avengers;
+        text-align: center;
+        text-transform: uppercase; 
+        word-spacing: 15px; /*separacion entre palabras*/
+        -webkit-text-stroke: 2px #4184dc;
+    }
+    
+    .letraTexto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: aliceblue;
+        margin: 30px;
+        text-align: left;
     }
 
 }
